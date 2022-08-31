@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "YBZryJgA60l0JF4fle6Ju7qTPgzbKEcPOK1RdSydurcPjnld9pyT3ZJ0FfBL+s5npwv4wYoJ059FVKKhv8dpXQ==",
+  "success": true,
+  "projectFilePath": "D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\Restaurante\\Restaurante.Persistencia\\Restaurante.Persistencia.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
