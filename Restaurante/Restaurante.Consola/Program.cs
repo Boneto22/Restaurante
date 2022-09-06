@@ -38,163 +38,163 @@ namespace Restaurante.Consola
                 descripcion = "sopa de queso",
                 precio = 10000
             }
+            ;
+           try
+            {
+                var  result = menuRepository.AdicionaMenu(menu);
 
-        //    try
-        //     {
-        //         var  result = menuRepository.AdicionaMenu(menu);
-
-        //             if(result > 0){
-        //                 Console.WriteLine("Asignacion insertado con exito..");
-        //             }else{
-        //                 Console.WriteLine("Error" , "No se pudo insertar el Menu.");
-        //             }
-        //     }catch (System.Exception e){
-        //         Console.WriteLine("Ocurrio un error: " + e );
-        //         throw;
-        //     }       
-        // }
+                    if(result > 0){
+                        Console.WriteLine("Asignacion insertado con exito..");
+                    }else{
+                        Console.WriteLine("Error" , "No se pudo insertar el Menu.");
+                    }
+            }catch (System.Exception e){
+                Console.WriteLine("Ocurrio un error: " + e );
+                throw;
+            }       
+        }
        
 
-        // public static void FindAll(){
-        //     Console.WriteLine("-----------------------------------------------");
-        //     Console.WriteLine("Listado de Menu");
-        //     Console.WriteLine("-----------------------------------------------");
+        public static void FindAll(){
+            Console.WriteLine("-----------------------------------------------");
+            Console.WriteLine("Listado de Menu");
+            Console.WriteLine("-----------------------------------------------");
             
-        //     var resultGeneral = menuRepository.GetAll();
+            var resultGeneral = menuRepository.GetAll();
 
-        //     foreach (var resultMenu in resultGeneral)
-        //     {
-        //         Console.WriteLine("Id: " + resultMenu.id +", Descripción Menu: " + resultMenu.descripcion +", Precio: "+ resultMenu.precio);
-        //     }
-        // }
+            foreach (var resultMenu in resultGeneral)
+            {
+                Console.WriteLine("Id: " + resultMenu.id +", Descripción Menu: " + resultMenu.descripcion +", Precio: "+ resultMenu.precio);
+            }
+        }
 
-        // public static void FindByName(){
+        public static void FindByName(){
 
-        //     var result = menuRepository.FindByName("zancocho");
+            var result = menuRepository.FindByName("zancocho");
 
-        //     foreach (var resultMenu in result)
-        //     {
-        //          Console.WriteLine("Id: " + resultMenu.id +", Descripción Menu: " + resultMenu.descripcion +", Precio: "+ resultMenu.precio);
-        //     }
-        // }
+            foreach (var resultMenu in result)
+            {
+                 Console.WriteLine("Id: " + resultMenu.id +", Descripción Menu: " + resultMenu.descripcion +", Precio: "+ resultMenu.precio);
+            }
+        }
 
-        // // //por id
-        // public static void Find(){
+        // //por id
+        public static void Find(){
 
-        //     var result = menuRepository.Buscar(1);
-        //     Console.WriteLine( result.descripcion );
-        // }
+            var result = menuRepository.Buscar(1);
+            Console.WriteLine( result.descripcion );
+        }
 
-        // public static void Update(){
+        public static void Update(){
 
-        //     var result = menuRepository.Buscar(1);
+            var result = menuRepository.Buscar(1);
 
-        //     if( result != null){
+            if( result != null){
 
-        //         result.descripcion = "Mondongo";              
+                result.descripcion = "Mondongo";              
 
-        //         var res = menuRepository.Update(result);
+                var res = menuRepository.Update(result);
 
-        //         if(res > 0){
-        //             Console.WriteLine("Se actualizo con exito");
-        //         }else{
-        //             Console.WriteLine("No fue posible actualizar");
-        //         }
-        //     }else{
-        //         Console.WriteLine("No existe ese plato para actualizar");
-        //     }
+                if(res > 0){
+                    Console.WriteLine("Se actualizo con exito");
+                }else{
+                    Console.WriteLine("No fue posible actualizar");
+                }
+            }else{
+                Console.WriteLine("No existe ese plato para actualizar");
+            }
 
-        // }
+        }
 
-        // public static void Delete(){
+        public static void Delete(){
 
-        //     var result = menuRepository.Buscar(4);
+            var result = menuRepository.Buscar(4);
 
-        //     if( result != null){
+            if( result != null){
 
-        //         var res = menuRepository.Delete(result);
+                var res = menuRepository.Delete(result);
 
-        //         if(res > 0){
-        //             Console.WriteLine("Se elimino con exito");
-        //         }else{
-        //             Console.WriteLine("No fue posible eliminar");
-        //         }
-        //     }else{
-        //         Console.WriteLine("No existe ese plato a eliminar");
-        //     }
+                if(res > 0){
+                    Console.WriteLine("Se elimino con exito");
+                }else{
+                    Console.WriteLine("No fue posible eliminar");
+                }
+            }else{
+                Console.WriteLine("No existe ese plato a eliminar");
+            }
 
-        // }       
+        }       
 
-        // public static void ObtenerTodosMenu(){
+        public static void ObtenerTodosMenu(){
 
-        //     var listadomenu = MenuRepository.ObtenerMenu();
+            var listadomenu = MenuRepository.ObtenerMenu();
 
-        //     foreach (var Lista in listadomenu)
-        //     {
-        //         Console.WriteLine("Id: " + Lista.id + ", Descripcion: " + Lista.Descripcion + ", Precio: " + Lista.precio );
-        //     }
+            foreach (var Lista in listadomenu)
+            {
+                Console.WriteLine("Id: " + Lista.id + ", Descripcion: " + Lista.Descripcion + ", Precio: " + Lista.precio );
+            }
 
-        // }
+        }
 
-        // public static void BuscarPorNombre(){
+        public static void BuscarPorNombre(){
              
-        //      var listadomenu = menuRepository.ObtenerListadoNombre( "sopa" );
+             var listadomenu = menuRepository.ObtenerListadoNombre( "sopa" );
 
-        //      foreach (var R in listadomenu)
-        //      {
-        //         Console.WriteLine("Id: " + R.id + ", Descripcion: " + R.descripcion + ", Precio; "+ R.precio);
-        //      }
+             foreach (var R in listadomenu)
+             {
+                Console.WriteLine("Id: " + R.id + ", Descripcion: " + R.descripcion + ", Precio; "+ R.precio);
+             }
 
-        // }
+        }
 
-        // public static void Buscador(){
+        public static void Buscador(){
              
-        //      var listado = menuRepository.Buscador(3);
+             var listado = menuRepository.Buscador(3);
 
-        //      foreach (var Menu1 in listado)
-        //      {
-        //         Console.WriteLine("Id: " + Menu1.id + ", Descripción: " + Menu1.descripcion );
-        //      }
+             foreach (var Menu1 in listado)
+             {
+                Console.WriteLine("Id: " + Menu1.id + ", Descripción: " + Menu1.descripcion );
+             }
 
-        // }
+        }
 
-        // public static void Actualizar(){
+        public static void Actualizar(){
 
-        //     var Plato = MenuRepository.Buscar(3);
+            var Plato = MenuRepository.Buscar(3);
 
-        //     if( Plato != null){
+            if( Plato != null){
 
-        //         Plato.descripcion = " Carne Oreada";          
+                Plato.descripcion = " Carne Oreada";          
                
-        //         var result = MenuRepository.ActualizarMenu(plato);
+                var result = MenuRepository.ActualizarMenu(plato);
 
-        //         if( result > 0 )
-        //             Console.WriteLine("Se actualizo con exito, se afectaron " + result + " registros.");
-        //         else
-        //             Console.WriteLine("No se logro actualizar");
+                if( result > 0 )
+                    Console.WriteLine("Se actualizo con exito, se afectaron " + result + " registros.");
+                else
+                    Console.WriteLine("No se logro actualizar");
 
-        //     }else{
-        //         Console.WriteLine("No existe la persona a actualizar");
-        //     }
-        // }
+            }else{
+                Console.WriteLine("No existe la persona a actualizar");
+            }
+        }
 
-        // public static void EliminarNivelPlato(){
+        public static void EliminarNivelPlato(){
 
-        //     var Plato = MenuRepository.Buscar(3);
+            var Plato = MenuRepository.Buscar(3);
 
-        //     if( Plato != null){
+            if( Plato != null){
 
-        //         var result = MenuRepository.EliminarNivelPlato(Plato);
+                var result = MenuRepository.EliminarNivelPlato(Plato);
 
-        //         if( result > 0 )
-        //             Console.WriteLine("Se elimino con exito, se afectaron " + result + " registros.");
-        //         else
-        //             Console.WriteLine("No se logro eliminar");
+                if( result > 0 )
+                    Console.WriteLine("Se elimino con exito, se afectaron " + result + " registros.");
+                else
+                    Console.WriteLine("No se logro eliminar");
 
-        //     }else{
-        //         Console.WriteLine("No existe la persona a eliminar");
-        //     }
-        // }
+            }else{
+                Console.WriteLine("No existe la persona a eliminar");
+            }
+        }
 
     }
 }
