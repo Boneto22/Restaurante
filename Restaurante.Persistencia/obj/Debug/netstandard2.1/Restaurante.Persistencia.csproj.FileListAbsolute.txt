@@ -1,0 +1,13 @@
+D:\Documents\HECTOR GARCIA\RUTA2\3er Ciclo\Proyecto\3erciclo\proyectoTemp\restaurante\restaurante\restaurante.Persistencia\obj\Debug\netstandard2.1\Restaurante.Persistencia.csproj.AssemblyReference.cache
+D:\Documents\HECTOR GARCIA\RUTA2\3er Ciclo\Proyecto\3erciclo\proyectoTemp\restaurante\restaurante\restaurante.Persistencia\obj\Debug\netstandard2.1\Restaurante.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\HECTOR GARCIA\RUTA2\3er Ciclo\Proyecto\3erciclo\proyectoTemp\restaurante\restaurante\restaurante.Persistencia\obj\Debug\netstandard2.1\Restaurante.Persistencia.AssemblyInfoInputs.cache
+D:\Documents\HECTOR GARCIA\RUTA2\3er Ciclo\Proyecto\3erciclo\proyectoTemp\restaurante\restaurante\restaurante.Persistencia\obj\Debug\netstandard2.1\Restaurante.Persistencia.AssemblyInfo.cs
+D:\Documents\HECTOR GARCIA\RUTA2\3er Ciclo\Proyecto\3erciclo\proyectoTemp\restaurante\restaurante\restaurante.Persistencia\obj\Debug\netstandard2.1\Restaurante.Persistencia.csproj.CoreCompileInputs.cache
+D:\Documents\HECTOR GARCIA\RUTA2\3er Ciclo\Proyecto\3erciclo\proyectoTemp\restaurante\restaurante\restaurante.Persistencia\bin\Debug\netstandard2.1\Restaurante.Persistencia.deps.json
+D:\Documents\HECTOR GARCIA\RUTA2\3er Ciclo\Proyecto\3erciclo\proyectoTemp\restaurante\restaurante\restaurante.Persistencia\bin\Debug\netstandard2.1\Restaurante.Persistencia.dll
+D:\Documents\HECTOR GARCIA\RUTA2\3er Ciclo\Proyecto\3erciclo\proyectoTemp\restaurante\restaurante\restaurante.Persistencia\bin\Debug\netstandard2.1\Restaurante.Persistencia.pdb
+D:\Documents\HECTOR GARCIA\RUTA2\3er Ciclo\Proyecto\3erciclo\proyectoTemp\restaurante\restaurante\restaurante.Persistencia\bin\Debug\netstandard2.1\Restaurante.Dominio.dll
+D:\Documents\HECTOR GARCIA\RUTA2\3er Ciclo\Proyecto\3erciclo\proyectoTemp\restaurante\restaurante\restaurante.Persistencia\bin\Debug\netstandard2.1\Restaurante.Dominio.pdb
+D:\Documents\HECTOR GARCIA\RUTA2\3er Ciclo\Proyecto\3erciclo\proyectoTemp\restaurante\restaurante\restaurante.Persistencia\obj\Debug\netstandard2.1\Restaurante.Persistencia.csproj.CopyComplete
+D:\Documents\HECTOR GARCIA\RUTA2\3er Ciclo\Proyecto\3erciclo\proyectoTemp\restaurante\restaurante\restaurante.Persistencia\obj\Debug\netstandard2.1\Restaurante.Persistencia.dll
+D:\Documents\HECTOR GARCIA\RUTA2\3er Ciclo\Proyecto\3erciclo\proyectoTemp\restaurante\restaurante\restaurante.Persistencia\obj\Debug\netstandard2.1\Restaurante.Persistencia.pdb

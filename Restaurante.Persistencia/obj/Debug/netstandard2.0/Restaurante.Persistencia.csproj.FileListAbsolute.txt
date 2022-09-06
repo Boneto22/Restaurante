@@ -1,0 +1,5 @@
+D:\Documents\HECTOR GARCIA\RUTA2\3er Ciclo\Proyecto\3erciclo\proyectoTemp\restaurante\Restaurante\Restaurante.Persistencia\obj\Debug\netstandard2.0\Restaurante.Persistencia.csproj.AssemblyReference.cache
+D:\Documents\HECTOR GARCIA\RUTA2\3er Ciclo\Proyecto\3erciclo\proyectoTemp\restaurante\Restaurante\Restaurante.Persistencia\obj\Debug\netstandard2.0\Restaurante.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\HECTOR GARCIA\RUTA2\3er Ciclo\Proyecto\3erciclo\proyectoTemp\restaurante\Restaurante\Restaurante.Persistencia\obj\Debug\netstandard2.0\Restaurante.Persistencia.AssemblyInfoInputs.cache
+D:\Documents\HECTOR GARCIA\RUTA2\3er Ciclo\Proyecto\3erciclo\proyectoTemp\restaurante\Restaurante\Restaurante.Persistencia\obj\Debug\netstandard2.0\Restaurante.Persistencia.AssemblyInfo.cs
+D:\Documents\HECTOR GARCIA\RUTA2\3er Ciclo\Proyecto\3erciclo\proyectoTemp\restaurante\Restaurante\Restaurante.Persistencia\obj\Debug\netstandard2.0\Restaurante.Persistencia.csproj.CoreCompileInputs.cache
