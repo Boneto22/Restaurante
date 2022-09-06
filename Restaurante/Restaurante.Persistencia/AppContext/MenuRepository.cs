@@ -63,27 +63,27 @@ namespace Restaurante.Persistencia
             return _context.SaveChanges();
         }
 
-        // IEnumerable<Menu> IMenuRepository.ObtenerTodosMenu(string value){
-        //     return _context.Menus;
-        // }
+        IEnumerable<Menu> IMenuRepository.ObtenerTodosMenu(string value){
+           return _context.Menus;
+        }
 
         List<Menu> IMenuRepository.ObtenerListadoNombre(string descrip){
             return _context.Menus.Where( p => p.descripcion.Contains(descrip) ).ToList();
         }
 
-        // IEnumerable<Asignacion> IAsigancionRepository.Buscador(string busqueda){
-        //     return _context.Asignaciones.Where( p => p.persona.Contains(busqueda));
-        // }
+        IEnumerable<Asignacion> IAsigancionRepository.Buscador(string busqueda){
+            return _context.Asignaciones.Where( p => p.persona.Contains(busqueda));
+        }
 
-        // int IAsigancionRepository.ActualizarAsignacion(Asignacion asignacion){
-        //     _context.Asignaciones.Update(asignacion);
-        //     return _context.SaveChanges();
-        // }
+        int IAsigancionRepository.ActualizarAsignacion(Asignacion asignacion){
+            _context.Asignaciones.Update(asignacion);
+            return _context.SaveChanges();
+        }
 
-        // int IAsigancionRepository.EliminarAsignacion(Asignacion asignacion){
-        //     _context.Asignaciones.Remove(asignacion);
-        //     return _context.SaveChanges();
-        // }
+        int IAsigancionRepository.EliminarAsignacion(Asignacion asignacion){
+            _context.Asignaciones.Remove(asignacion);
+            return _context.SaveChanges();
+        }
        
     }
    
