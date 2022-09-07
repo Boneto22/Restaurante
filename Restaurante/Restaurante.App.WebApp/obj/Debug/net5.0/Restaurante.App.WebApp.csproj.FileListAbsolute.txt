@@ -38,3 +38,43 @@ D:\Documents\HECTOR GARCIA\RUTA2\3er Ciclo\Proyecto\3erciclo\proyectoTemp\restau
 D:\Documents\HECTOR GARCIA\RUTA2\3er Ciclo\Proyecto\3erciclo\proyectoTemp\restaurante\restaurante\restaurante.consola\restaurante.app.webapp\obj\Debug\net5.0\Restaurante.App.WebApp.pdb
 D:\Documents\HECTOR GARCIA\RUTA2\3er Ciclo\Proyecto\3erciclo\proyectoTemp\restaurante\restaurante\restaurante.consola\restaurante.app.webapp\obj\Debug\net5.0\Restaurante.App.WebApp.genruntimeconfig.cache
 D:\Documents\HECTOR GARCIA\RUTA2\3er Ciclo\Proyecto\3erciclo\proyectoTemp\restaurante\restaurante\restaurante.consola\restaurante.app.webapp\obj\Debug\net5.0\Restaurante.App.WebApp.csproj.CopyComplete
+C:\Users\Dylan\Documents\Proyectos\restaurante\restaurante\restaurante.app.webapp\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Dylan\Documents\Proyectos\restaurante\restaurante\restaurante.app.webapp\bin\Debug\net5.0\appsettings.json
+C:\Users\Dylan\Documents\Proyectos\restaurante\restaurante\restaurante.app.webapp\bin\Debug\net5.0\Restaurante.App.WebApp.StaticWebAssets.xml
+C:\Users\Dylan\Documents\Proyectos\restaurante\restaurante\restaurante.app.webapp\bin\Debug\net5.0\Restaurante.App.WebApp.exe
+C:\Users\Dylan\Documents\Proyectos\restaurante\restaurante\restaurante.app.webapp\bin\Debug\net5.0\Restaurante.App.WebApp.deps.json
+C:\Users\Dylan\Documents\Proyectos\restaurante\restaurante\restaurante.app.webapp\bin\Debug\net5.0\Restaurante.App.WebApp.runtimeconfig.json
+C:\Users\Dylan\Documents\Proyectos\restaurante\restaurante\restaurante.app.webapp\bin\Debug\net5.0\Restaurante.App.WebApp.runtimeconfig.dev.json
+C:\Users\Dylan\Documents\Proyectos\restaurante\restaurante\restaurante.app.webapp\bin\Debug\net5.0\Restaurante.App.WebApp.dll
+C:\Users\Dylan\Documents\Proyectos\restaurante\restaurante\restaurante.app.webapp\bin\Debug\net5.0\Restaurante.App.WebApp.pdb
+C:\Users\Dylan\Documents\Proyectos\restaurante\restaurante\restaurante.app.webapp\bin\Debug\net5.0\Restaurante.App.WebApp.Views.dll
+C:\Users\Dylan\Documents\Proyectos\restaurante\restaurante\restaurante.app.webapp\bin\Debug\net5.0\Restaurante.App.WebApp.Views.pdb
+C:\Users\Dylan\Documents\Proyectos\restaurante\restaurante\restaurante.app.webapp\obj\Debug\net5.0\Restaurante.App.WebApp.csproj.AssemblyReference.cache
+C:\Users\Dylan\Documents\Proyectos\restaurante\restaurante\restaurante.app.webapp\obj\Debug\net5.0\Restaurante.App.WebApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dylan\Documents\Proyectos\restaurante\restaurante\restaurante.app.webapp\obj\Debug\net5.0\Restaurante.App.WebApp.AssemblyInfoInputs.cache
+C:\Users\Dylan\Documents\Proyectos\restaurante\restaurante\restaurante.app.webapp\obj\Debug\net5.0\Restaurante.App.WebApp.AssemblyInfo.cs
+C:\Users\Dylan\Documents\Proyectos\restaurante\restaurante\restaurante.app.webapp\obj\Debug\net5.0\Restaurante.App.WebApp.csproj.CoreCompileInputs.cache
+C:\Users\Dylan\Documents\Proyectos\restaurante\restaurante\restaurante.app.webapp\obj\Debug\net5.0\Restaurante.App.WebApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Dylan\Documents\Proyectos\restaurante\restaurante\restaurante.app.webapp\obj\Debug\net5.0\Restaurante.App.WebApp.RazorAssemblyInfo.cache
+C:\Users\Dylan\Documents\Proyectos\restaurante\restaurante\restaurante.app.webapp\obj\Debug\net5.0\Restaurante.App.WebApp.RazorAssemblyInfo.cs
+C:\Users\Dylan\Documents\Proyectos\restaurante\restaurante\restaurante.app.webapp\obj\Debug\net5.0\scopedcss\bundle\Restaurante.App.WebApp.styles.css
+C:\Users\Dylan\Documents\Proyectos\restaurante\restaurante\restaurante.app.webapp\obj\Debug\net5.0\staticwebassets\Restaurante.App.WebApp.StaticWebAssets.Manifest.cache
+C:\Users\Dylan\Documents\Proyectos\restaurante\restaurante\restaurante.app.webapp\obj\Debug\net5.0\Restaurante.App.WebApp.TagHelpers.input.cache
+C:\Users\Dylan\Documents\Proyectos\restaurante\restaurante\restaurante.app.webapp\obj\Debug\net5.0\Restaurante.App.WebApp.TagHelpers.output.cache
+C:\Users\Dylan\Documents\Proyectos\restaurante\restaurante\restaurante.app.webapp\obj\Debug\net5.0\Restaurante.App.WebApp.RazorCoreGenerate.cache
+C:\Users\Dylan\Documents\Proyectos\restaurante\restaurante\restaurante.app.webapp\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+C:\Users\Dylan\Documents\Proyectos\restaurante\restaurante\restaurante.app.webapp\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
+C:\Users\Dylan\Documents\Proyectos\restaurante\restaurante\restaurante.app.webapp\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\Dylan\Documents\Proyectos\restaurante\restaurante\restaurante.app.webapp\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\Dylan\Documents\Proyectos\restaurante\restaurante\restaurante.app.webapp\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Dylan\Documents\Proyectos\restaurante\restaurante\restaurante.app.webapp\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\Dylan\Documents\Proyectos\restaurante\restaurante\restaurante.app.webapp\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\Dylan\Documents\Proyectos\restaurante\restaurante\restaurante.app.webapp\obj\Debug\net5.0\Restaurante.App.WebApp.RazorTargetAssemblyInfo.cache
+C:\Users\Dylan\Documents\Proyectos\restaurante\restaurante\restaurante.app.webapp\obj\Debug\net5.0\Restaurante.App.WebApp.RazorTargetAssemblyInfo.cs
+C:\Users\Dylan\Documents\Proyectos\restaurante\restaurante\restaurante.app.webapp\obj\Debug\net5.0\Restaurante.App.WebApp.Views.pdb
+C:\Users\Dylan\Documents\Proyectos\restaurante\restaurante\restaurante.app.webapp\obj\Debug\net5.0\Restaurante.App.WebApp.dll
+C:\Users\Dylan\Documents\Proyectos\restaurante\restaurante\restaurante.app.webapp\obj\Debug\net5.0\refint\Restaurante.App.WebApp.dll
+C:\Users\Dylan\Documents\Proyectos\restaurante\restaurante\restaurante.app.webapp\obj\Debug\net5.0\Restaurante.App.WebApp.pdb
+C:\Users\Dylan\Documents\Proyectos\restaurante\restaurante\restaurante.app.webapp\obj\Debug\net5.0\Restaurante.App.WebApp.genruntimeconfig.cache
+C:\Users\Dylan\Documents\Proyectos\restaurante\restaurante\restaurante.app.webapp\obj\Debug\net5.0\ref\Restaurante.App.WebApp.dll
+C:\Users\Dylan\Documents\Proyectos\restaurante\restaurante\restaurante.app.webapp\obj\Debug\net5.0\Restaurante.App.WebApp.csproj.CopyComplete
