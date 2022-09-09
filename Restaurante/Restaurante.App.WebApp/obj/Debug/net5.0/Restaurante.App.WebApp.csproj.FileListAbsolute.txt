@@ -78,3 +78,7 @@ C:\Users\Dylan\Documents\Proyectos\restaurante\restaurante\restaurante.app.webap
 C:\Users\Dylan\Documents\Proyectos\restaurante\restaurante\restaurante.app.webapp\obj\Debug\net5.0\Restaurante.App.WebApp.genruntimeconfig.cache
 C:\Users\Dylan\Documents\Proyectos\restaurante\restaurante\restaurante.app.webapp\obj\Debug\net5.0\ref\Restaurante.App.WebApp.dll
 C:\Users\Dylan\Documents\Proyectos\restaurante\restaurante\restaurante.app.webapp\obj\Debug\net5.0\Restaurante.App.WebApp.csproj.CopyComplete
+C:\Users\Dylan\Documents\Proyectos\restaurante\restaurante\restaurante.app.webapp\obj\Debug\net5.0\Razor\Pages\Registro\Cliente.cshtml.g.cs
+C:\Users\Dylan\Documents\Proyectos\restaurante\restaurante\restaurante.app.webapp\obj\Debug\net5.0\Razor\Pages\Referencia\Contacto.cshtml.g.cs
+C:\Users\Dylan\Documents\Proyectos\restaurante\restaurante\restaurante.app.webapp\obj\Debug\net5.0\Razor\Pages\Menu\Comidas.cshtml.g.cs
+C:\Users\Dylan\Documents\Proyectos\restaurante\restaurante\restaurante.app.webapp\obj\Debug\net5.0\Razor\Pages\Registro\Empleado.cshtml.g.cs

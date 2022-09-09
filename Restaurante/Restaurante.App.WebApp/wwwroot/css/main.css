@@ -5,12 +5,13 @@
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-primary: "Amatic SC", sans-serif;
   --font-secondary: "Inter", sans-serif;
-  --font: "Indie Flower", cursive;
+  --font-page: "Indie Flower", cursive;
 }
 /*personal classes*/
 .font-decoration {
-  font-family: var(--font);
+  font-family: "Indie Flower", cursive;
 }
+
 .bx-decoration {
   box-shadow: 0px 0px 4px;
   border-radius: 10px;
@@ -19,7 +20,31 @@
 .bg-bluelight {
   background-color: var(--color-bluelight);
 }
-/*Colores*/
+
+.image {
+  max-height: 350.23px;
+}
+
+.br-bluelight {
+  border: 1px solid black;
+  border-color: var(--color-bluelight);
+}
+
+.max-text {
+  font-family: "Indie Flower", cursive;
+  font-size: 58px;
+  font-weight: 700;
+  color: var(--color-secondary);
+  text-align: center;
+  margin: 0;
+}
+
+.min-text {
+  font-size: 14px;
+  color: #808080;
+}
+
+/* paleta de Colores*/
 :root {
   --color-default: #212529;
   --color-primary: #ce1212;
@@ -73,18 +98,12 @@ h6 {
   font-weight: 700;
   color: #000;
   margin: 0;
-  font-family: var(--font-secondary);
   text-decoration: none;
 }
 
 .logo {
   text-decoration: none;
   min-width: 280px;
-}
-
-.min-text {
-  font-size: 14px;
-  color: #808080;
 }
 
 @media (max-width: 575px) {
@@ -138,19 +157,10 @@ h6 {
   padding: 120px 0 60px 0;
 }
 
-.message h2 {
-  text-align: center;
-  font-size: 58px;
-  font-weight: 700;
-  color: var(--color-secondary);
-  font-family: var(--font);
-  margin: 0;
-}
-
 .span-text {
   text-align: center;
   font-size: 24px;
-  font-family: var(--font);
+  font-family: var(--font-page);
 }
 
 .message p {
