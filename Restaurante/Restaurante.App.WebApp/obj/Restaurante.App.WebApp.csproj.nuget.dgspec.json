@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\restaurante\\restaurante\\restaurante.consola\\restaurante.app.webapp\\Restaurante.App.WebApp.csproj": {}
+    "D:\\leider\\universidad de caldas\\programacion\\c#\\Restaurante\\Restaurante\\Restaurante.App.WebApp\\Restaurante.App.WebApp.csproj": {}
   },
   "projects": {
-    "D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\restaurante\\restaurante\\restaurante.consola\\restaurante.app.webapp\\Restaurante.App.WebApp.csproj": {
+    "D:\\leider\\universidad de caldas\\programacion\\c#\\Restaurante\\Restaurante\\Restaurante.App.WebApp\\Restaurante.App.WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\restaurante\\restaurante\\restaurante.consola\\restaurante.app.webapp\\Restaurante.App.WebApp.csproj",
+        "projectUniqueName": "D:\\leider\\universidad de caldas\\programacion\\c#\\Restaurante\\Restaurante\\Restaurante.App.WebApp\\Restaurante.App.WebApp.csproj",
         "projectName": "Restaurante.App.WebApp",
-        "projectPath": "D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\restaurante\\restaurante\\restaurante.consola\\restaurante.app.webapp\\Restaurante.App.WebApp.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\restaurante\\restaurante\\restaurante.consola\\restaurante.app.webapp\\obj\\",
+        "projectPath": "D:\\leider\\universidad de caldas\\programacion\\c#\\Restaurante\\Restaurante\\Restaurante.App.WebApp\\Restaurante.App.WebApp.csproj",
+        "packagesPath": "C:\\Users\\leide\\.nuget\\packages\\",
+        "outputPath": "D:\\leider\\universidad de caldas\\programacion\\c#\\Restaurante\\Restaurante\\Restaurante.App.WebApp\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\leide\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"

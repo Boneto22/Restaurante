@@ -1,50 +1,152 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Restaurante.App.WebApp</title>
+    <title>@ViewData["Title"] Bonnato´s Food</title>
+    <link rel="icon" href="~/img/IconLogo.png">
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/main.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Indie+Flower&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet" />
 </head>
-<body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">Restaurante.App.WebApp</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
-                        </li>
-                    </ul>
+
+<body class="block">
+    <!-- cabecera Banner -->
+    <header class="banner fixed-top d-flex algn-items-center ">
+        <div class="container d-flex align-items-center justify-content-between">
+            <a href="" class="logo d-flex align-items-center justify-content-between">
+                <img src="~/Img/logo.png" alt="logo.image" />
+                <div class="row">
+                    <h1 class="brand-text">
+                        Bonnato´s Food
+                        <br /> <span class="min-text">Restaurante</span>
+                    </h1>
                 </div>
-            </div>
-        </nav>
-    </header>
-    <div class="container">
+            </a>
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" asp-page="/Index">
+                                    Inicio
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" asp-page="/Menu/Comidas">
+                                    Ordena Aqui
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" asp-page="/Referencia/Contacto">
+                                    Contactanos
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <div class="dropdown show mr-2">
+                                    <a class="btn dropdown-toggle bg-bluelight" href="#" role="button"
+                                        id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                                        aria-expanded="false">
+                                        Registro
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                        <a class="dropdown-item" asp-page="/Registro/Cliente">Clientes</a>
+                                        <a class="dropdown-item" asp-page="/Registro/Empleado">Empleados</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header> <!-- Fin Banner -->
+    <div>
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
-
-    <footer class="border-top footer text-muted">
+    <!-- Inicio Pie De pagina -->
+    <footer class="footer">
         <div class="container">
-            &copy; 2022 - Restaurante.App.WebApp - <a asp-area="" asp-page="/Privacy">Privacy</a>
+            <div class="row gy-3">
+                <div class="col-lg-3 col-md-6 d-flex">
+                    <i class="icon ion-md-locate"></i>
+                    <div>
+                        <h4>Direccion</h4>
+                        <p>
+                            ejemplo aqui <br />
+                            mas ejemplos aqui
+                            <br />
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 footer-links d-flex">
+                    <i class="icon ion-md-call"></i>
+                    <div>
+                        <h4>Reservaciones</h4>
+                        <p>
+                            <strong>Telefono:</strong> +telefono aqui
+                            <br />
+                            <strong>Email:</strong> ejemplo.email@example.com
+                            <br />
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 footer-links d-flex">
+                    <i class="icon ion-md-time"></i>
+                    <div>
+                        <h4>Horario</h4>
+                        <p>
+                            <strong>Lunes - Sabados</strong> Todo el dia
+                            <br />
+                            Domingos cerrado
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <h4>Links de referencia</h4>
+                    <div class="social-links d-flex">
+                        <a href="#" class="twitter">
+                            <i class="icon ion-logo-twitter"></i>
+                        </a>
+                        <a href="#" class="facebook">
+                            <i class="icon ion-logo-facebook"></i>
+                        </a>
+                        <a href="#" class="instagram">
+                            <i class="icon ion-logo-instagram"></i>
+                        </a>
+                        <a href="#" class="linkedin">
+                            <i class="icon ion-logo-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
-    </footer>
+    </footer><!-- Final Pie De pagina -->
+
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/Api.js"></script>
 
     @await RenderSectionAsync("Scripts", required: false)
+
 </body>
+
 </html>

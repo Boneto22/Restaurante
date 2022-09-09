@@ -1,0 +1,49 @@
+﻿@page
+@model restaurante.app.webapp.pages.EmpleadoModel
+@{
+}
+
+<div class="message d-flex align-items-center section-bg bg-light">
+    <div class="container">
+        <div class="bg-bluelight">
+            <h2 class="p-2 pb-4 max-text font-decoration">Registro Empleado</h2>
+        </div>
+        <form action="" class="d-flex flex-column p-4 br-bluelight">
+            <div class="d-flex justify-content-between">
+                <div class="form-group col-md-4">
+                    <label for="Name">Nombre</label>
+                    <input type="text" class="form-control" placeholder="Tu Nombre aqui">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="LastName" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" placeholder="Tu Apellido aqui">
+                </div>
+            </div>
+            <div class="form-group col-12">
+                <label for="Email" class="form-label">Email</label>
+                <input type="email" class="form-control" placeholder="Ingresa tu email">
+            </div>
+            <div class="form-group col-12">
+                <label for="Phone" class="form-label">Telefono</label>
+                <input type="number" class="form-control" placeholder="Ingresa Tu telefono">
+            </div>
+            <div class="form-group col-12">
+                <label for="Document" class="form-label">Documento</label>
+                <input type="number" class="form-control" placeholder="Ingresa Tu Documento">
+            </div>
+            <div class="d-flex justify-content-between mb-4">
+                <div class="form-group col-md-4">
+                    <label for="User">Usuario</label>
+                    <input type="text" class="form-control" placeholder="Ingresa tu nombre de usuario">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="Password" class="form-label">Contraseña</label>
+                    <input type="password" class="form-control" placeholder="Contraseña Segura">
+                </div>
+            </div>
+            <div class="form-group col-12">
+                <button type="submit" class="btn btn-block btn-primary">Enviar</button>
+            </div>
+        </form>
+    </div>
+</div>
