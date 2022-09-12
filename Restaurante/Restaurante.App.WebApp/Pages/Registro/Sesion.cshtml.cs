@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace restaurante.app.webapp.pages
 {
-    public class ContactoModel : PageModel
+    public class SesionModel : PageModel
     {
         public void OnGet()
         {

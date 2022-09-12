@@ -8,7 +8,7 @@ namespace Restaurante.Persistencia
 {
     public class AsignacionRepository : IAsignacionRepository
     {
-      // instancia
+    // instancia
     //   private readonly AppContext _context;
 
     //     //constructor

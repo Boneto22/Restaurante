@@ -3,47 +3,55 @@
 @{
 }
 
-<div class="message d-flex align-items-center section-bg bg-light">
+<section class="message d-flex align-items-center section-bg bg-light">
     <div class="container">
-        <div class="bg-bluelight">
-            <h2 class="p-2 pb-4 max-text">Registro Cliente</h2>
+        <div class="row justify-content-between gy-5">
+            <div
+                class="col-lg-4 order-1 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start p-4 ">
+                <div class="row m-2">
+                    <h2 class="col-12 max-text">Gracias Por registrarte</h2>
+                    <span class="col-12 min-text">Esto es un mensaje de bienvenida</span>
+                </div>
+                <p class="min-text">
+                    Sed autem laudantium dolores. Voluptatem itaque ea consequatur eveniet.
+                    Eum quas beatae cumque eum quaerat.
+                </p>
+            </div>
+
+            <div class="col-lg-6 order-2 order-lg-2 text-center text-lg-start">
+                <form action="" class="p-2">
+                    <div class="d-flex flex-column px-4">
+                        <span class="span-text">Completa El formulario</span>
+                        <span class="span-text text-primary">Para comenzar</span>
+                    </div>
+                    <div class="mt-3 px-4">
+                        <input type="password" class="form-control" placeholder="Documento">
+                    </div>
+                    <div class="mt-3 px-4">
+                        <input type="text" class="form-control" placeholder="Nombre">
+                    </div>
+                    <div class="mt-3 px-4">
+                        <input type="text" class="form-control" placeholder="Apellido">
+                    </div>
+                    <div class="mt-3 px-4">
+                        <input type="number" class="form-control" placeholder="Telefono">
+                    </div>
+                    <div class="mt-3 px-4">
+                        <input type="email" class="form-control" placeholder="Email">
+                    </div>
+                    <div class="d-flex justify-content-start mt-3 px-4">
+                        <div class="form-check ">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <label class="form-check-label" for="defaultCheck1">
+                                <span class="min-text">Acepta Los Terminos y condiciones para continuar</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="my-2 px-4">
+                        <button type="button" class="btn btn-primary btn-lg btn-block ">Aceptar</button>
+                    </div>
+                </form>
+            </div>
         </div>
-        <form action="" class="d-flex flex-column p-4 br-bluelight">
-            <div class="d-flex justify-content-between">
-                <div class="form-group col-md-4">
-                    <label for="Name">Nombre</label>
-                    <input type="text" class="form-control" placeholder="Tu Nombre aqui">
-                </div>
-                <div class="form-group col-md-6">
-                    <label for="LastName" class="form-label">Apellido</label>
-                    <input type="text" class="form-control" placeholder="Tu Apellido aqui">
-                </div>
-            </div>
-            <div class="form-group col-12">
-                <label for="Email" class="form-label">Email</label>
-                <input type="email" class="form-control" placeholder="Ingresa tu email">
-            </div>
-            <div class="form-group col-12">
-                <label for="Phone" class="form-label">Telefono</label>
-                <input type="number" class="form-control" placeholder="Ingresa Tu telefono">
-            </div>
-            <div class="form-group col-12">
-                <label for="Document" class="form-label">Documento</label>
-                <input type="number" class="form-control" placeholder="Ingresa Tu Documento">
-            </div>
-            <div class="d-flex justify-content-between mb-4">
-                <div class="form-group col-md-4">
-                    <label for="User">Usuario</label>
-                    <input type="text" class="form-control" placeholder="Ingresa tu nombre de usuario">
-                </div>
-                <div class="form-group col-md-6">
-                    <label for="Password" class="form-label">Contraseña</label>
-                    <input type="password" class="form-control" placeholder="Contraseña Segura">
-                </div>
-            </div>
-            <div class="form-group col-12">
-                <button type="submit" class="btn btn-block btn-primary">Enviar</button>
-            </div>
-        </form>
     </div>
-</div>
+</section>

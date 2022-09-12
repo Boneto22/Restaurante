@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "/YpshNorQMI7xiQVGtxz077PmtuoE1cTSanYqWl2Z/heMDwVOqT+YjaM0om6/wogIBI91C1BM/16h/llCN/PsA==",
+  "dgSpecHash": "vz9aPTe7a4V6VtwGcYNk3UMVnNviIjAHo3yWmUdsWVAjnU7JGrzqBkR8hNBtFpSk1V2GT+XhzTP59VSRu9NrXw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dylan\\Documents\\Proyectos\\restaurante\\restaurante\\restaurante.app.webapp\\Restaurante.App.WebApp.csproj",
+  "projectFilePath": "C:\\Users\\Dylan\\Documents\\Proyectos\\Restaurante\\Restaurante\\Restaurante.App.WebApp\\Restaurante.App.WebApp.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Dylan\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\Dylan\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Dylan\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512",
     "C:\\Users\\Dylan\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\Dylan\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+    "C:\\Users\\Dylan\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Dylan\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }
