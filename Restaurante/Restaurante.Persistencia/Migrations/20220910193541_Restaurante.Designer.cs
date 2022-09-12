@@ -10,8 +10,8 @@ using Restaurante.Persistencia;
 namespace Restaurante.Persistencia.Migrations
 {
     [DbContext(typeof(AppContext))]
-    [Migration("20220904222401_Inicial")]
-    partial class Inicial
+    [Migration("20220910193541_Restaurante")]
+    partial class Restaurante
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -45,20 +45,44 @@ namespace Restaurante.Persistencia.Migrations
                         .HasColumnType("int")
                         .UseIdentityColumn();
 
-                    b.Property<string>("Discriminator")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<int?>("mesaid")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("personaid")
                         .HasColumnType("int");
 
                     b.HasKey("id");
 
                     b.HasIndex("mesaid");
 
-                    b.ToTable("Comandas");
+                    b.HasIndex("personaid");
 
-                    b.HasDiscriminator<string>("Discriminator").HasValue("Comanda");
+                    b.ToTable("Comandas");
+                });
+
+            modelBuilder.Entity("Restaurante.Dominio.Deta_Fact", b =>
+                {
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .UseIdentityColumn();
+
+                    b.Property<int>("cant")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("facturaid")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("menuid")
+                        .HasColumnType("int");
+
+                    b.HasKey("id");
+
+                    b.HasIndex("facturaid");
+
+                    b.HasIndex("menuid");
+
+                    b.ToTable("Deta_Facts");
                 });
 
             modelBuilder.Entity("Restaurante.Dominio.Detal_Asignacion", b =>
@@ -80,7 +104,82 @@ namespace Restaurante.Persistencia.Migrations
 
                     b.HasIndex("mesaid");
 
-                    b.ToTable("Deta_Asignaciones");
+                    b.ToTable("Detal_Asignaciones");
+                });
+
+            modelBuilder.Entity("Restaurante.Dominio.Detal_comanda", b =>
+                {
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .UseIdentityColumn();
+
+                    b.Property<int>("cant")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("comandaid")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("menuid")
+                        .HasColumnType("int");
+
+                    b.HasKey("id");
+
+                    b.HasIndex("comandaid");
+
+                    b.HasIndex("menuid");
+
+                    b.ToTable("Detal_comandas");
+                });
+
+            modelBuilder.Entity("Restaurante.Dominio.Factura", b =>
+                {
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .UseIdentityColumn();
+
+                    b.Property<int?>("idcomandaid")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("mesaid")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("personaid")
+                        .HasColumnType("int");
+
+                    b.Property<decimal>("precio")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.HasKey("id");
+
+                    b.HasIndex("idcomandaid");
+
+                    b.HasIndex("mesaid");
+
+                    b.HasIndex("personaid");
+
+                    b.ToTable("Facturas");
+                });
+
+            modelBuilder.Entity("Restaurante.Dominio.Login", b =>
+                {
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .UseIdentityColumn();
+
+                    b.Property<int?>("idRolid")
+                        .HasColumnType("int");
+
+                    b.Property<string>("password")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("id");
+
+                    b.HasIndex("idRolid");
+
+                    b.ToTable("Logins");
                 });
 
             modelBuilder.Entity("Restaurante.Dominio.Menu", b =>
@@ -152,48 +251,12 @@ namespace Restaurante.Persistencia.Migrations
                     b.HasDiscriminator<string>("Discriminator").HasValue("Persona");
                 });
 
-            modelBuilder.Entity("Restaurante.Dominio.Detal_comanda", b =>
-                {
-                    b.HasBaseType("Restaurante.Dominio.Comanda");
-
-                    b.Property<int>("cant")
-                        .HasColumnType("int")
-                        .HasColumnName("Detal_comanda_cant");
-
-                    b.Property<int>("idcomanda")
-                        .HasColumnType("int");
-
-                    b.Property<int?>("menuid")
-                        .HasColumnType("int")
-                        .HasColumnName("Detal_comanda_menuid");
-
-                    b.HasIndex("menuid");
-
-                    b.HasDiscriminator().HasValue("Detal_comanda");
-                });
-
-            modelBuilder.Entity("Restaurante.Dominio.Factura", b =>
-                {
-                    b.HasBaseType("Restaurante.Dominio.Comanda");
-
-                    b.Property<int>("idcomanda")
-                        .HasColumnType("int")
-                        .HasColumnName("Factura_idcomanda");
-
-                    b.Property<int?>("personaid")
-                        .HasColumnType("int");
-
-                    b.Property<decimal>("precio")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.HasIndex("personaid");
-
-                    b.HasDiscriminator().HasValue("Factura");
-                });
-
             modelBuilder.Entity("Restaurante.Dominio.TipoPersona", b =>
                 {
-                    b.HasBaseType("Restaurante.Dominio.Persona");
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .UseIdentityColumn();
 
                     b.Property<int>("idpersona")
                         .HasColumnType("int");
@@ -201,25 +264,22 @@ namespace Restaurante.Persistencia.Migrations
                     b.Property<string>("tipoP")
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasDiscriminator().HasValue("TipoPersona");
+                    b.HasKey("id");
+
+                    b.ToTable("TipoPersonas");
                 });
 
-            modelBuilder.Entity("Restaurante.Dominio.Deta_Fact", b =>
+            modelBuilder.Entity("Restaurante.Dominio.Rol", b =>
                 {
-                    b.HasBaseType("Restaurante.Dominio.Factura");
+                    b.HasBaseType("Restaurante.Dominio.Persona");
 
-                    b.Property<int>("cant")
-                        .HasColumnType("int");
+                    b.Property<string>("password")
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("idFactura")
-                        .HasColumnType("int");
+                    b.Property<string>("tipoRol")
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("menuid")
-                        .HasColumnType("int");
-
-                    b.HasIndex("menuid");
-
-                    b.HasDiscriminator().HasValue("Deta_Fact");
+                    b.HasDiscriminator().HasValue("Rol");
                 });
 
             modelBuilder.Entity("Restaurante.Dominio.Asignacion", b =>
@@ -237,7 +297,28 @@ namespace Restaurante.Persistencia.Migrations
                         .WithMany()
                         .HasForeignKey("mesaid");
 
+                    b.HasOne("Restaurante.Dominio.Persona", "persona")
+                        .WithMany()
+                        .HasForeignKey("personaid");
+
                     b.Navigation("mesa");
+
+                    b.Navigation("persona");
+                });
+
+            modelBuilder.Entity("Restaurante.Dominio.Deta_Fact", b =>
+                {
+                    b.HasOne("Restaurante.Dominio.Factura", "factura")
+                        .WithMany()
+                        .HasForeignKey("facturaid");
+
+                    b.HasOne("Restaurante.Dominio.Menu", "menu")
+                        .WithMany()
+                        .HasForeignKey("menuid");
+
+                    b.Navigation("factura");
+
+                    b.Navigation("menu");
                 });
 
             modelBuilder.Entity("Restaurante.Dominio.Detal_Asignacion", b =>
@@ -257,29 +338,47 @@ namespace Restaurante.Persistencia.Migrations
 
             modelBuilder.Entity("Restaurante.Dominio.Detal_comanda", b =>
                 {
+                    b.HasOne("Restaurante.Dominio.Comanda", "comanda")
+                        .WithMany()
+                        .HasForeignKey("comandaid");
+
                     b.HasOne("Restaurante.Dominio.Menu", "menu")
                         .WithMany()
                         .HasForeignKey("menuid");
+
+                    b.Navigation("comanda");
 
                     b.Navigation("menu");
                 });
 
             modelBuilder.Entity("Restaurante.Dominio.Factura", b =>
                 {
+                    b.HasOne("Restaurante.Dominio.Comanda", "idcomanda")
+                        .WithMany()
+                        .HasForeignKey("idcomandaid");
+
+                    b.HasOne("Restaurante.Dominio.Mesa", "mesa")
+                        .WithMany()
+                        .HasForeignKey("mesaid");
+
                     b.HasOne("Restaurante.Dominio.Persona", "persona")
                         .WithMany()
                         .HasForeignKey("personaid");
 
+                    b.Navigation("idcomanda");
+
+                    b.Navigation("mesa");
+
                     b.Navigation("persona");
                 });
 
-            modelBuilder.Entity("Restaurante.Dominio.Deta_Fact", b =>
+            modelBuilder.Entity("Restaurante.Dominio.Login", b =>
                 {
-                    b.HasOne("Restaurante.Dominio.Menu", "menu")
+                    b.HasOne("Restaurante.Dominio.Rol", "idRol")
                         .WithMany()
-                        .HasForeignKey("menuid");
+                        .HasForeignKey("idRolid");
 
-                    b.Navigation("menu");
+                    b.Navigation("idRol");
                 });
 #pragma warning restore 612, 618
         }

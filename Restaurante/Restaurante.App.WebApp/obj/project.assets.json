@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\restaurante\\restaurante\\restaurante.consola\\Restaurante.App.WebApp\\Restaurante.App.WebApp.csproj",
+      "projectUniqueName": "D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\Restaurante\\restaurante\\Restaurante.App.WebApp\\Restaurante.App.WebApp.csproj",
       "projectName": "Restaurante.App.WebApp",
-      "projectPath": "D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\restaurante\\restaurante\\restaurante.consola\\Restaurante.App.WebApp\\Restaurante.App.WebApp.csproj",
+      "projectPath": "D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\Restaurante\\restaurante\\Restaurante.App.WebApp\\Restaurante.App.WebApp.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\restaurante\\restaurante\\restaurante.consola\\Restaurante.App.WebApp\\obj\\",
+      "outputPath": "D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\Restaurante\\restaurante\\Restaurante.App.WebApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"

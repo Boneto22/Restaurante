@@ -1,50 +1,49 @@
 ﻿using System;
 using Restaurante.Dominio;
+using Restaurante.Persistencia;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Restaurante.Persistencia;
 
-namespace Restaurante.Consola
-{
+namespace Restaurante.Consola {
     class Program
     {
        //instancia del repositorio
-        private static Persistencia.IMenuRepository menuRepository = new MenuRepository( new Restaurante.Persistencia.AppContext());
+      private static Persistencia.IMenuRepository menuRepository = new MenuRepository( new Restaurante.Persistencia.AppContext());
        
         public static void Main(string[] args)
         {
              
-             addMenu();     
-            // FindAll(); 
-            // FindByName();
-            // Find();            
-            // Update();
-            // Delete();                 
-            //ObtenerTodosMenu();
-            // BuscarPorNombre();
-           // Buscador();
-           // Actualizar();
-            //EliminarNivelPlato();
+            addMenu();     
+        //     FindAll(); 
+        //     FindByName();
+        //     Find();            
+        //     Update();
+        //     Delete();                 
+        //     ObtenerTodosMenu();
+        //     BuscarPorNombre();
+        //    Buscador();
+        //    Actualizar();
+        //     EliminarNivelPlato();
 
            
         }
    
         public static void addMenu(){
             
-            Console.WriteLine("Registrando el Menu...");
+             Console.WriteLine("Registrando el Menu...");
 
            var menu = new Menu{
                 descripcion = "sopa de queso",
                 precio = 10000
-            }
-            ;
-           try
-            {
-                var  result = menuRepository.AdicionaMenu(menu);
+            };
+            menuRepository.Add(menu);
+         //   try
+         //    {
+            var  result = menuRepository.Add(menu);
 
-                    if(result > 0){
-                        Console.WriteLine("Asignacion insertado con exito..");
+            if(result > 0){
+               Console.WriteLine("Menú insertado con exito..");
                     }else{
                         Console.WriteLine("Error" , "No se pudo insertar el Menu.");
                     }
@@ -194,7 +193,7 @@ namespace Restaurante.Consola
             }else{
                 Console.WriteLine("No existe la persona a eliminar");
             }
-        }
+         }
 
-    }
+   }
 }

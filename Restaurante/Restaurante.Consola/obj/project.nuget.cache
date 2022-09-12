@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mZDO+bnaXBViqld1IvAYd7Rv61w0pEboiAPuFumYwun0EcSxYx096B3eZGw+izhYo5dxt3puO3zsjAWJejq0Nw==",
+  "dgSpecHash": "j2tk3E1HaEyGj8huIdFcynZuetd3XAgUTbf1SLA8kaSsveVIUA7UmFeX0nWLhon80GsKuch+J2ttNcgNofNOlQ==",
   "success": true,
-  "projectFilePath": "D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\restaurante\\restaurante\\restaurante.consola\\Restaurante.Consola.csproj",
+  "projectFilePath": "D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\Restaurante\\restaurante\\restaurante.consola\\Restaurante.Consola.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
