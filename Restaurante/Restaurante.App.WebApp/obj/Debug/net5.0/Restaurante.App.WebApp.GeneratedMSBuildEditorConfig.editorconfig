@@ -3,8 +3,12 @@ build_property.TargetFramework = net5.0
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
-build_property.PublishSingleFile = 
-build_property.IncludeAllContentForSelfExtract = 
-build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Restaurante.App.WebApp
+<<<<<<< HEAD
 build_property.ProjectDir = D:\Documents\HECTOR GARCIA\RUTA2\3er Ciclo\Proyecto\3erciclo\proyectoTemp\Restaurante\restaurante\Restaurante.App.WebApp\
+=======
+build_property.ProjectDir = C:\Users\Dylan\Documents\Proyectos\restaurante\restaurante\restaurante.app.webapp\
+>>>>>>> 1aad3ada6de7e334392999542f681daa408edbbb

@@ -1,3 +1,7 @@
 is_global = true
 build_property.RootNamespace = Restaurante.Consola
+<<<<<<< HEAD
 build_property.ProjectDir = D:\Documents\HECTOR GARCIA\RUTA2\3er Ciclo\Proyecto\3erciclo\proyectoTemp\Restaurante\restaurante\restaurante.consola\
+=======
+build_property.ProjectDir = C:\Users\Dylan\Documents\Proyectos\Restaurante\Restaurante\Restaurante.Consola\
+>>>>>>> 1aad3ada6de7e334392999542f681daa408edbbb
