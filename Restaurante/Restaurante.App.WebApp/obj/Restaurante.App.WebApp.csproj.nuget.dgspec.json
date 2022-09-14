@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dylan\\Documents\\Proyectos\\Restaurante\\Restaurante\\Restaurante.App.WebApp\\Restaurante.App.WebApp.csproj": {}
+    "C:\\Users\\Dylan\\Documents\\Proyectos\\restaurante\\restaurante\\restaurante.app.webapp\\Restaurante.App.WebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dylan\\Documents\\Proyectos\\Restaurante\\Restaurante\\Restaurante.App.WebApp\\Restaurante.App.WebApp.csproj": {
+    "C:\\Users\\Dylan\\Documents\\Proyectos\\restaurante\\restaurante\\restaurante.app.webapp\\Restaurante.App.WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dylan\\Documents\\Proyectos\\Restaurante\\Restaurante\\Restaurante.App.WebApp\\Restaurante.App.WebApp.csproj",
+        "projectUniqueName": "C:\\Users\\Dylan\\Documents\\Proyectos\\restaurante\\restaurante\\restaurante.app.webapp\\Restaurante.App.WebApp.csproj",
         "projectName": "Restaurante.App.WebApp",
-        "projectPath": "C:\\Users\\Dylan\\Documents\\Proyectos\\Restaurante\\Restaurante\\Restaurante.App.WebApp\\Restaurante.App.WebApp.csproj",
+        "projectPath": "C:\\Users\\Dylan\\Documents\\Proyectos\\restaurante\\restaurante\\restaurante.app.webapp\\Restaurante.App.WebApp.csproj",
         "packagesPath": "C:\\Users\\Dylan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dylan\\Documents\\Proyectos\\Restaurante\\Restaurante\\Restaurante.App.WebApp\\obj\\",
+        "outputPath": "C:\\Users\\Dylan\\Documents\\Proyectos\\restaurante\\restaurante\\restaurante.app.webapp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

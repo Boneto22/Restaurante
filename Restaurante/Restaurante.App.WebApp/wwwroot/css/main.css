@@ -17,7 +17,12 @@
 }
 
 .bg-bluelight {
-  background-color: var(--color-bluelight);
+  background: rgba(132, 210, 234, 0.15);
+  box-shadow: 0 0px 12px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .bg-glass {
@@ -37,6 +42,10 @@
   max-height: 350.23px;
 }
 
+.icono {
+  width: 98px;
+}
+
 .br-bluelight {
   border: 1px solid;
   border-color: var(--color-bluelight);
@@ -54,11 +63,6 @@
 .min-text {
   font-size: 14px;
   color: #808080;
-}
-
-.m-img {
-  max-height: 68px;
-  margin-right: 4px;
 }
 
 /* paleta de Colores*/
@@ -198,18 +202,43 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Card
+# Content
 --------------------------------------------------------------*/
 
 .card {
-  width: 280px;
-  height: 220px;
+  width: 260px;
+  height: 180px;
   border-radius: 8px;
   box-shadow: 0px 2px 2px var(---color-bluedark);
   overflow: scroll;
   text-align: center;
   transition: all 0.25s;
   margin: 10px;
+}
+
+.card img {
+  width: 100%;
+  max-height: 88px;
+  margin-right: 4px;
+}
+
+.table {
+  box-sizing: border-box;
+  width: 240px;
+  height: 420px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.table p {
+  margin: 0;
+  padding: 0;
+}
+
+.table img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
 }
 
 /*--------------------------------------------------------------

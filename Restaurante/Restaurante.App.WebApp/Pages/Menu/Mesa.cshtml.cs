@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace restaurante.app.webapp.pages
+namespace Restaurante.App.WebApp.Pages.Menu
 {
-    public class ComidasModel : PageModel
+    public class MesaModel : PageModel
     {
         public void OnGet()
         {
