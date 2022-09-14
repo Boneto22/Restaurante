@@ -1,64 +1,36 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\Restaurante\\restaurante\\restaurante.consola\\Restaurante.Consola.csproj": {}
+    "D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\Restaurante\\restaurante\\restaurante.Consola\\Restaurante.Consola.csproj": {}
   },
   "projects": {
-    "D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\Restaurante\\restaurante\\restaurante.consola\\Restaurante.Consola.csproj": {
+    "D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\Restaurante\\restaurante\\restaurante.Consola\\Restaurante.Consola.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\Restaurante\\restaurante\\restaurante.consola\\Restaurante.Consola.csproj",
+        "projectUniqueName": "D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\Restaurante\\restaurante\\restaurante.Consola\\Restaurante.Consola.csproj",
         "projectName": "Restaurante.Consola",
-        "projectPath": "D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\Restaurante\\restaurante\\restaurante.consola\\Restaurante.Consola.csproj",
+        "projectPath": "D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\Restaurante\\restaurante\\restaurante.Consola\\Restaurante.Consola.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\Restaurante\\restaurante\\restaurante.consola\\obj\\",
-=======
-    "C:\\Users\\Dylan\\Documents\\Proyectos\\Restaurante\\Restaurante\\Restaurante.Consola\\Restaurante.Consola.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\Dylan\\Documents\\Proyectos\\Restaurante\\Restaurante\\Restaurante.Consola\\Restaurante.Consola.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Dylan\\Documents\\Proyectos\\Restaurante\\Restaurante\\Restaurante.Consola\\Restaurante.Consola.csproj",
-        "projectName": "Restaurante.Consola",
-        "projectPath": "C:\\Users\\Dylan\\Documents\\Proyectos\\Restaurante\\Restaurante\\Restaurante.Consola\\Restaurante.Consola.csproj",
-        "packagesPath": "C:\\Users\\Dylan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dylan\\Documents\\Proyectos\\Restaurante\\Restaurante\\Restaurante.Consola\\obj\\",
->>>>>>> 1aad3ada6de7e334392999542f681daa408edbbb
+        "outputPath": "D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\Restaurante\\restaurante\\restaurante.Consola\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Dylan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-<<<<<<< HEAD
               "D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\Restaurante\\restaurante\\restaurante.Dominio\\Restaurante.Dominio.csproj": {
                 "projectPath": "D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\Restaurante\\restaurante\\restaurante.Dominio\\Restaurante.Dominio.csproj"
               },
               "D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\Restaurante\\restaurante\\restaurante.Persistencia\\Restaurante.Persistencia.csproj": {
                 "projectPath": "D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\Restaurante\\restaurante\\restaurante.Persistencia\\Restaurante.Persistencia.csproj"
-=======
-              "C:\\Users\\Dylan\\Documents\\Proyectos\\Restaurante\\Restaurante\\restaurante.Dominio\\Restaurante.Dominio.csproj": {
-                "projectPath": "C:\\Users\\Dylan\\Documents\\Proyectos\\Restaurante\\Restaurante\\restaurante.Dominio\\Restaurante.Dominio.csproj"
-              },
-              "C:\\Users\\Dylan\\Documents\\Proyectos\\Restaurante\\Restaurante\\restaurante.Persistencia\\Restaurante.Persistencia.csproj": {
-                "projectPath": "C:\\Users\\Dylan\\Documents\\Proyectos\\Restaurante\\Restaurante\\restaurante.Persistencia\\Restaurante.Persistencia.csproj"
->>>>>>> 1aad3ada6de7e334392999542f681daa408edbbb
               }
             }
           }
@@ -100,17 +72,21 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.25, 3.1.25]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
@@ -245,9 +221,6 @@
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
-=======
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
->>>>>>> 1aad3ada6de7e334392999542f681daa408edbbb
         }
       }
     }
