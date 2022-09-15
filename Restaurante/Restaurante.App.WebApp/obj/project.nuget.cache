@@ -1,6 +1,7 @@
 {
   "version": 2,
 <<<<<<< HEAD
+<<<<<<< HEAD
   "dgSpecHash": "RfKxG74pVTtSmpnwHCsE4RaYOIXXqxZzaexsZ+7juIResLsyx3E5pSDlOLuXu9iWOLYO0ycQLoodIUtlxWCiWA==",
   "success": true,
   "projectFilePath": "D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\Restaurante\\restaurante\\Restaurante.App.WebApp\\Restaurante.App.WebApp.csproj",
@@ -8,6 +9,10 @@
 =======
   "dgSpecHash": "Y/6Cs05tQp0wvWLRXHVmFACsJiTy80FQUqph2eoXlJkx62PTryjNSxUR1Jvoc+7bGRgdTjJUVSoVtCsiljUZ3w==",
   "success": true,
+=======
+  "dgSpecHash": "Y/6Cs05tQp0wvWLRXHVmFACsJiTy80FQUqph2eoXlJkx62PTryjNSxUR1Jvoc+7bGRgdTjJUVSoVtCsiljUZ3w==",
+  "success": true,
+>>>>>>> afb48ae4ef9650f4f2e0a584877bb2998bb8f49f
   "projectFilePath": "C:\\Users\\Dylan\\Documents\\Proyectos\\restaurante\\restaurante\\restaurante.app.webapp\\Restaurante.App.WebApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dylan\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
@@ -15,6 +20,9 @@
     "C:\\Users\\Dylan\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
     "C:\\Users\\Dylan\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
   ],
+<<<<<<< HEAD
 >>>>>>> 1aad3ada6de7e334392999542f681daa408edbbb
+=======
+>>>>>>> afb48ae4ef9650f4f2e0a584877bb2998bb8f49f
   "logs": []
 }

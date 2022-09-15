@@ -2,6 +2,7 @@
   "format": 1,
   "restore": {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\Restaurante\\restaurante\\Restaurante.App.WebApp\\Restaurante.App.WebApp.csproj": {}
   },
   "projects": {
@@ -26,6 +27,19 @@
         "packagesPath": "C:\\Users\\Dylan\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Dylan\\Documents\\Proyectos\\restaurante\\restaurante\\restaurante.app.webapp\\obj\\",
 >>>>>>> 1aad3ada6de7e334392999542f681daa408edbbb
+=======
+    "C:\\Users\\Dylan\\Documents\\Proyectos\\restaurante\\restaurante\\restaurante.app.webapp\\Restaurante.App.WebApp.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Dylan\\Documents\\Proyectos\\restaurante\\restaurante\\restaurante.app.webapp\\Restaurante.App.WebApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Dylan\\Documents\\Proyectos\\restaurante\\restaurante\\restaurante.app.webapp\\Restaurante.App.WebApp.csproj",
+        "projectName": "Restaurante.App.WebApp",
+        "projectPath": "C:\\Users\\Dylan\\Documents\\Proyectos\\restaurante\\restaurante\\restaurante.app.webapp\\Restaurante.App.WebApp.csproj",
+        "packagesPath": "C:\\Users\\Dylan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dylan\\Documents\\Proyectos\\restaurante\\restaurante\\restaurante.app.webapp\\obj\\",
+>>>>>>> afb48ae4ef9650f4f2e0a584877bb2998bb8f49f
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
