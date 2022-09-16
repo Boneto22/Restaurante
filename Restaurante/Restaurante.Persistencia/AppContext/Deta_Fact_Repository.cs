@@ -15,7 +15,7 @@ namespace Restaurante.Persistencia{
           _context = context;
         }          
      //Guardar
-        int IDeta_Fact_Repository.AdicionaDetaFact(Deta_Fact Deta_Factu) 
+        int IDeta_Fact_Repository.AdicionaDetaFact(Deta_Fact Deta_Factu){
            _context.Deta_Facts.Add(Deta_Factu);
            return _context.SaveChanges();
        }       
@@ -29,9 +29,9 @@ namespace Restaurante.Persistencia{
             return _context.Deta_Facts.Find(id);
         }
 
-        IEnumerable<Deta_Fact_> IDeta_Fact_Repository.GetAll(){
-            return _context.Deta_Facts;
-        }
+        // IEnumerable<Deta_Fact_> IDeta_Fact_Repository.GetAll(){
+        //     return _context.Deta_Facts;
+        // }
 
         //  IEnumerable<Comanda> IComanda_Repository.Buscador(){
         //     return_context.Menus;
@@ -39,7 +39,7 @@ namespace Restaurante.Persistencia{
         // IEnumerable<Comanda> IComanda_Repository.Buscador(int busqueda){
         //     return _context.Menus.Where(p => p.id.Contains(busqueda) );
         // }
-        List<Deta_Fact> IDeta_Fact_Repository.ObtenerDeta_Fact(){
+        List<Deta_Fact> IDeta_Fact_Repository.ObtenerDetaFact(){
             return _context.Deta_Facts.ToList();
         }
        
@@ -51,19 +51,19 @@ namespace Restaurante.Persistencia{
         //     return _context.Menus.Where(p => p.persona.Contains(value));
         // }
 
-        int IComanda_Repository.Update(Deta_Fact Deta_Factu){
+        int IDeta_Fact__Repository.Update(Deta_Fact Deta_Factu){
             _context.Deta_Facts.Update(Deta_Factu);
             return _context.SaveChanges();
         }
 
-        int IComanda_Repository.Delete(Deta_Fact Deta_Factu){
+        int IDeta_Fact__Repository.Delete(Deta_Fact Deta_Factu){
             _context.Deta_Facts.Remove(Deta_Factu);
             return _context.SaveChanges();
         }
 
-        IEnumerable<MenuComanda> IComanda_Repository.ObtenerTodas(){
-           return _context.Deta_Facts;
-        }
+        // IEnumerable<Deta_Fact> IDeta_Fact__Repository.ObtenerTodas(){
+        //    return _context.Deta_Facts;
+        // }
 
         // List<Comanda> IComanda_Repository.ObtenerListadoNombre(string descrip){
         //     return _context.Menus.Where( p => p.descripcion.Contains(descrip) ).ToList();
@@ -73,16 +73,15 @@ namespace Restaurante.Persistencia{
         //     return _context.Menus.Where( p => p.persona.Contains(busqueda));
         // }
 
-        int IComanda_Repository.Actualizar(Deta_Fact Deta_Factu){
-            _context.Deta_Facts.Update(Deta_Factu);
-            return _context.SaveChanges();
+        // int IComanda_Repository.Actualizar(Deta_Fact Deta_Factu){
+        //     _context.Deta_Facts.Update(Deta_Factu);
+        //     return _context.SaveChanges();
+
+        // int IComanda_Repository.Eliminar(Deta_Fact Deta_Factu){
+        //     _context.Deta_Facts.Remove(Deta_Factu);
+        //     return _context.SaveChanges();
+        // }
         }
 
-        int IComanda_Repository.Eliminar(Deta_Fact Deta_Factu){
-            _context.Deta_Facts.Remove(Deta_Factu);
-            return _context.SaveChanges();
-        }
-       
     }
-   
-}
+    }

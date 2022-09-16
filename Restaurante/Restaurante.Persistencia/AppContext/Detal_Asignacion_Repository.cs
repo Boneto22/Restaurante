@@ -15,7 +15,7 @@ namespace Restaurante.Persistencia{
           _context = context;
         }          
      //Guardar
-        int IDetal_Asignacion_Repository.AdicionaDetaAsig(Detal_Asignacion detal_asignacion) 
+        int IDetal_Asignacion_Repository.AdicionaDetaAsig(Detal_Asignacion detal_asignacion){ 
            _context.Detal_Asignaciones.Add(detal_asignacion);
            return _context.SaveChanges();
        }       
@@ -56,7 +56,7 @@ namespace Restaurante.Persistencia{
             return _context.SaveChanges();
         }
 
-        int IDetal_Asignacion_Repository.Delete(Detal_Asignacion){
+        int IDetal_Asignacion_Repository.Delete(Detal_Asignacion detal_asignacion){
             _context.Detal_Asignaciones.Remove(Detal_Asignacion);
             return _context.SaveChanges();
         }
@@ -78,10 +78,10 @@ namespace Restaurante.Persistencia{
             return _context.SaveChanges();
         }
 
-        int IComanda_Repository.Eliminar(Detal_Asignacion detal_asignacion){
-            _context.Detal_Asignaciones.Remove(detal_asignacion);
-            return _context.SaveChanges();
-        }
+        // int IComanda_Repository.Eliminar(Detal_Asignacion){
+        //     _context.Detal_Asignaciones.Remove(detal_asignacion);
+        //     return _context.SaveChanges();
+        // }
        
     }
    

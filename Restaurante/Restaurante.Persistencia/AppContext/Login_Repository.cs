@@ -73,10 +73,10 @@ namespace Restaurante.Persistencia{
         //     return _context.Menus.Where( p => p.persona.Contains(busqueda));
         // }
 
-        int IComanda_Repository.Actualizar(Login login){
-            _context.Logins.Update(login);
-            return _context.SaveChanges();
-        }
+        // int IComanda_Repository.Actualizar(Login login){
+        //     _context.Logins.Update(login);
+        //     return _context.SaveChanges();
+        // }
 
         int IComanda_Repository.Eliminar(Login login){
             _context.Logins.Remove(login);

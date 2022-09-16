@@ -18,7 +18,7 @@ namespace Restaurante.Persistencia
         IEnumerable<Login> ObtenerTodosLogin();
         // List<Menu> ObtenerListadoNombre(string descrip);
         // IEnumerable<Menu> Buscador();
-        int Actualizar(Login login);
+       // int Actualizar(Login login);
         int Eliminar(Login login);
       
     } 

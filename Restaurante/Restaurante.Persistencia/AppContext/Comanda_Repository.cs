@@ -51,10 +51,10 @@ namespace Restaurante.Persistencia{
         //     return _context.Menus.Where(p => p.persona.Contains(value));
         // }
 
-        int IComanda_Repository.Update(Comanda comanda){
-            _context.Comandas.Update(comanda);
-            return _context.SaveChanges();
-        }
+        // int IComanda_Repository.Update(Comanda comanda){
+        //     _context.Comandas.Update(comanda);
+        //     return _context.SaveChanges();
+        // }
 
         int IComanda_Repository.Delete(Comanda comanda){
             _context.Comandas.Remove(comanda);

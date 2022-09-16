@@ -16,7 +16,7 @@ namespace Restaurante.Persistencia
         // IEnumerable<Asignacion> FindMultipleParameter(string value);
         int Update(TipoPersona tipopersona);
         int Delete(TipoPersona tipopersona);
-        IEnumerable<TipoPersona> ObtenerTodasTipoPersona();
+       // IEnumerable<TipoPersona> ObtenerTodasTipoPersona();
         // List<Menu> ObtenerListadoNombre(string descrip);
         // IEnumerable<Menu> Buscador();
         int Actualizar(TipoPersona tipopersona);

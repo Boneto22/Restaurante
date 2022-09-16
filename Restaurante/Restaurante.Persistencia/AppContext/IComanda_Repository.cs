@@ -14,7 +14,7 @@ namespace Restaurante.Persistencia
         List<Comanda> ObtenerComanda();
         // IEnumerable<Menu> FindByName(string name);
         // IEnumerable<Asignacion> FindMultipleParameter(string value);
-        int Update(Comanda comanda);
+       // int Update(Comanda comanda);
         int Delete(Comanda comanda);
         IEnumerable<Comanda> ObtenerTodasComanda();
         // List<Menu> ObtenerListadoNombre(string descrip);

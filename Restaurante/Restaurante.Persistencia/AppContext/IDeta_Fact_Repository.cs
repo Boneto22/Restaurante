@@ -10,17 +10,17 @@ namespace Restaurante.Persistencia
         int AdicionaDetaFact(Deta_Fact Deta_Factu);
         bool Add(DetaFact Deta_Factu);
         Deta_Fact Buscar(int id);
-        IEnumerable<Deta_Fact> GetAll();
+       // IEnumerable<Deta_Fact> GetAll();
         List<Deta_Fact> ObtenerDetaFact();
         // IEnumerable<Menu> FindByName(string name);
         // IEnumerable<Asignacion> FindMultipleParameter(string value);
         int Update(Deta_Fact Deta_Factu);
         int Delete(Deta_Fact Deta_Factu);
-        IEnumerable<Deta_Fact> ObtenerTodas();
+       // IEnumerable<Deta_Fact> ObtenerTodas();
         // List<Menu> ObtenerListadoNombre(string descrip);
         // IEnumerable<Menu> Buscador();
-        int Actualizar(Deta_Fact Deta_Facts);
-        int Eliminar(Deta_Fact Deta_Facts);
+        //int Actualizar(Deta_Fact Deta_Facts);
+       // int Eliminar(Deta_Fact Deta_Facts);
       
     } 
    
