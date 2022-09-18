@@ -24,8 +24,8 @@ namespace Restaurante.Persistencia{
             _context.Mesas.Add(mesa);
             return (_context.SaveChanges() > 0 ? true : false);            
         }
-         //buscar pórpor Id
-        Menu IMesa_Repository.Buscar(int id){
+         //buscar pór Id
+        Mesa IMesa_Repository.Buscar(int id){
             return _context.Mesas.Find(id);
         }
 
@@ -73,13 +73,13 @@ namespace Restaurante.Persistencia{
         //     return _context.Menus.Where( p => p.persona.Contains(busqueda));
         // }
 
-        int IComanda_Repository.Actualizar(Comanda comanda){
-            _context.Comandas.Update(comanda);
+        int IMesa_Repository.Actualizar(Mesa mesa){
+            _context.Mesas.Update(mesa);
             return _context.SaveChanges();
         }
 
-        int IComanda_Repository.Eliminar(Comanda comanda){
-            _context.Comandas.Remove(comanda);
+        int IMesa_Repository.Eliminar(Mesa mesa){
+            _context.Mesas.Remove(mesa);
             return _context.SaveChanges();
         }
        

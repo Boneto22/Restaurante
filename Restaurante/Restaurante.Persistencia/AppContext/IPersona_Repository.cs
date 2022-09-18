@@ -9,7 +9,7 @@ namespace Restaurante.Persistencia
     {       
         int AdicionaPersona(Persona persona);
         bool Add(Persona persona);
-        Comanda Buscar(int id);
+        Persona Buscar(int id);
         IEnumerable<Persona> GetAll();
         List<Persona> ObtenerPersona();
         // IEnumerable<Menu> FindByName(string name);

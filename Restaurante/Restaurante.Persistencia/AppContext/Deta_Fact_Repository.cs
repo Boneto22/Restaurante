@@ -25,7 +25,7 @@ namespace Restaurante.Persistencia{
             return (_context.SaveChanges() > 0 ? true : false);            
         }
          //buscar pórpor Id
-        Menu IDeta_Fact_Repository.Buscar(int id){
+        Deta_Fact IDeta_Fact_Repository.Buscar(int id){
             return _context.Deta_Facts.Find(id);
         }
 
@@ -51,12 +51,12 @@ namespace Restaurante.Persistencia{
         //     return _context.Menus.Where(p => p.persona.Contains(value));
         // }
 
-        int IDeta_Fact__Repository.Update(Deta_Fact Deta_Factu){
+        int IDeta_Fact_Repository.Update(Deta_Fact Deta_Factu){
             _context.Deta_Facts.Update(Deta_Factu);
             return _context.SaveChanges();
         }
 
-        int IDeta_Fact__Repository.Delete(Deta_Fact Deta_Factu){
+        int IDeta_Fact_Repository.Delete(Deta_Fact Deta_Factu){
             _context.Deta_Facts.Remove(Deta_Factu);
             return _context.SaveChanges();
         }
@@ -84,4 +84,4 @@ namespace Restaurante.Persistencia{
         }
 
     }
-    }
+    

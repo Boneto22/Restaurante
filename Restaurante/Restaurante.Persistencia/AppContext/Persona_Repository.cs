@@ -6,31 +6,31 @@ using System.Collections.Generic;
 
 namespace Restaurante.Persistencia{
    
-    public class Comanda_Repository : IComanda_Repository {
+    public class Persona_Repository : IPersona_Repository {
        
         private readonly AppContext _context;
 
     // constructor
-        public Comanda_Repository(AppContext context){
+        public Persona_Repository(AppContext context){
           _context = context;
         }          
      //Guardar
-        int IComanda_Repository.AdicionaComanda(Comanda comanda){
-           _context.Comandas.Add(comanda);
+        int IPersona_Repository.AdicionaPersona(Persona persona){
+           _context.Personas.Add(persona);
            return _context.SaveChanges();
        }       
 
-        bool IComanda_Repository.Add(Comanda comanda){
-            _context.Comandas.Add(comanda);
+        bool IPersona_Repository.Add(Persona persona){
+            _context.Personas.Add(persona);
             return (_context.SaveChanges() > 0 ? true : false);            
         }
          //buscar pórpor Id
-        Menu IComanda_Repository.Buscar(int id){
-            return _context.Comandas.Find(id);
+        Persona IPersona_Repository.Buscar(int id){
+            return _context.Personas.Find(id);
         }
 
-        IEnumerable<Comanda> IComanda_Repository.GetAll(){
-            return _context.Comandas;
+        IEnumerable<Persona> IPersona_Repository.GetAll(){
+            return _context.Personas;
         }
 
         //  IEnumerable<Comanda> IComanda_Repository.Buscador(){
@@ -39,8 +39,8 @@ namespace Restaurante.Persistencia{
         // IEnumerable<Comanda> IComanda_Repository.Buscador(int busqueda){
         //     return _context.Menus.Where(p => p.id.Contains(busqueda) );
         // }
-        List<Comanda> IComanda_Repository.ObtenerComanda(){
-            return _context.Comandas.ToList();
+        List<Persona> IPersona_Repository.ObtenerPersona(){
+            return _context.Personas.ToList();
         }
        
         // IEnumerable<Menu> IComanda_Repository.FindByName(string name){
@@ -51,18 +51,18 @@ namespace Restaurante.Persistencia{
         //     return _context.Menus.Where(p => p.persona.Contains(value));
         // }
 
-        int IComanda_Repository.Update(Comanda comanda){
-            _context.Comandas.Update(comanda);
+        int IPersona_Repository.Update(Persona persona){
+            _context.Personas.Update(persona);
             return _context.SaveChanges();
         }
 
-        int IComanda_Repository.Delete(Comanda comanda){
-            _context.Comandas.Remove(comanda);
+        int IPersona_Repository.Delete(Persona persona){
+            _context.Personas.Remove(persona);
             return _context.SaveChanges();
         }
 
-        IEnumerable<MenuComanda> IComanda_Repository.ObtenerTodasComanda(){
-           return _context.Comandas;
+        IEnumerable<Persona> IPersona_Repository.ObtenerTodasPersona(){
+           return _context.Personas;
         }
 
         // List<Comanda> IComanda_Repository.ObtenerListadoNombre(string descrip){
@@ -73,13 +73,13 @@ namespace Restaurante.Persistencia{
         //     return _context.Menus.Where( p => p.persona.Contains(busqueda));
         // }
 
-        int IComanda_Repository.Actualizar(Comanda comanda){
-            _context.Comandas.Update(comanda);
+        int IPersona_Repository.Actualizar(Persona persona){
+            _context.Personas.Update(persona);
             return _context.SaveChanges();
         }
 
-        int IComanda_Repository.Eliminar(Comanda comanda){
-            _context.Comandas.Remove(comanda);
+        int IPersona_Repository.Eliminar(Persona persona){
+            _context.Personas.Remove(persona);
             return _context.SaveChanges();
         }
        

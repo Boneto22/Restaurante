@@ -8,7 +8,7 @@ namespace Restaurante.Persistencia
     public interface IDeta_Fact_Repository
     {       
         int AdicionaDetaFact(Deta_Fact Deta_Factu);
-        bool Add(DetaFact Deta_Factu);
+        bool Add(Deta_Fact Deta_Factu);
         Deta_Fact Buscar(int id);
        // IEnumerable<Deta_Fact> GetAll();
         List<Deta_Fact> ObtenerDetaFact();

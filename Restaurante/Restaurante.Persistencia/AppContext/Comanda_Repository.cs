@@ -25,7 +25,7 @@ namespace Restaurante.Persistencia{
             return (_context.SaveChanges() > 0 ? true : false);            
         }
          //buscar pórpor Id
-        Menu IComanda_Repository.Buscar(int id){
+        Comanda IComanda_Repository.Buscar(int id){
             return _context.Comandas.Find(id);
         }
 
@@ -61,7 +61,7 @@ namespace Restaurante.Persistencia{
             return _context.SaveChanges();
         }
 
-        IEnumerable<MenuComanda> IComanda_Repository.ObtenerTodasComanda(){
+        IEnumerable<Comanda> IComanda_Repository.ObtenerTodasComanda(){
            return _context.Comandas;
         }
 

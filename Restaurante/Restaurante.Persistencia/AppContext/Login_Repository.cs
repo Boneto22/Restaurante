@@ -25,7 +25,7 @@ namespace Restaurante.Persistencia{
             return (_context.SaveChanges() > 0 ? true : false);            
         }
          //buscar pórpor Id
-        Menu ILogin_Repository.Buscar(int id){
+        Login ILogin_Repository.Buscar(int id){
             return _context.Logins.Find(id);
         }
 
@@ -51,17 +51,17 @@ namespace Restaurante.Persistencia{
         //     return _context.Menus.Where(p => p.persona.Contains(value));
         // }
 
-        int IComanda_Repository.Update(Login login){
+        int ILogin_Repository.Update(Login login){
             _context.Logins.Update(login);
             return _context.SaveChanges();
         }
 
-        int IComanda_Repository.Delete(Login login){
+        int ILogin_Repository.Delete(Login login){
             _context.Logins.Remove(login);
             return _context.SaveChanges();
         }
 
-        IEnumerable<MenuComanda> ILogin_Repository.ObtenerTodosLogin(){
+        IEnumerable<Login> ILogin_Repository.ObtenerTodosLogin(){
            return _context.Logins;
         }
 
@@ -78,11 +78,9 @@ namespace Restaurante.Persistencia{
         //     return _context.SaveChanges();
         // }
 
-        int IComanda_Repository.Eliminar(Login login){
-            _context.Logins.Remove(login);
-            return _context.SaveChanges();
+        
         }
        
     }
    
-}
+

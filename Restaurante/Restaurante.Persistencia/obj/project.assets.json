@@ -7249,8 +7249,8 @@
     },
     "Restaurante.Dominio/1.0.0": {
       "type": "project",
-      "path": "../Restaurante.Dominio/Restaurante.Dominio.csproj",
-      "msbuildProject": "../Restaurante.Dominio/Restaurante.Dominio.csproj"
+      "path": "../restaurante.Dominio/Restaurante.Dominio.csproj",
+      "msbuildProject": "../restaurante.Dominio/Restaurante.Dominio.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -7268,11 +7268,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\Restaurante\\RESTAURANTE\\restaurante.persistencia\\Restaurante.Persistencia.csproj",
+      "projectUniqueName": "D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\Restaurante\\restaurante\\restaurante.Persistencia\\Restaurante.Persistencia.csproj",
       "projectName": "Restaurante.Persistencia",
-      "projectPath": "D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\Restaurante\\RESTAURANTE\\restaurante.persistencia\\Restaurante.Persistencia.csproj",
+      "projectPath": "D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\Restaurante\\restaurante\\restaurante.Persistencia\\Restaurante.Persistencia.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\Restaurante\\RESTAURANTE\\restaurante.persistencia\\obj\\",
+      "outputPath": "D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\Restaurante\\restaurante\\restaurante.Persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -7287,8 +7287,8 @@
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "projectReferences": {
-            "D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\Restaurante\\RESTAURANTE\\Restaurante.Dominio\\Restaurante.Dominio.csproj": {
-              "projectPath": "D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\Restaurante\\RESTAURANTE\\Restaurante.Dominio\\Restaurante.Dominio.csproj"
+            "D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\Restaurante\\restaurante\\restaurante.Dominio\\Restaurante.Dominio.csproj": {
+              "projectPath": "D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\Restaurante\\restaurante\\restaurante.Dominio\\Restaurante.Dominio.csproj"
             }
           }
         }

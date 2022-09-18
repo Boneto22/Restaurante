@@ -25,11 +25,11 @@ namespace Restaurante.Persistencia{
             return (_context.SaveChanges() > 0 ? true : false);            
         }
          //buscar pórpor Id
-        Menu IDetal_Asignacion_Repository.Buscar(int id){
+        Detal_Asignacion IDetal_Asignacion_Repository.Buscar(int id){
             return _context.Detal_Asignaciones.Find(id);
         }
 
-        IEnumerable<Detal_Asignacion_> IDetal_Asignacion_Repository.GetAll(){
+        IEnumerable<Detal_Asignacion> IDetal_Asignacion_Repository.GetAll(){
             return _context.Detal_Asignaciones;
         }
 
@@ -57,11 +57,11 @@ namespace Restaurante.Persistencia{
         }
 
         int IDetal_Asignacion_Repository.Delete(Detal_Asignacion detal_asignacion){
-            _context.Detal_Asignaciones.Remove(Detal_Asignacion);
+            _context.Detal_Asignaciones.Remove(detal_asignacion);
             return _context.SaveChanges();
         }
 
-        IEnumerable<MenuComanda> IComanda_Repository.ObtenerTodas(){
+        IEnumerable<Detal_Asignacion> IDetal_Asignacion_Repository.ObtenerTodas(){
            return _context.Detal_Asignaciones;
         }
 
@@ -73,15 +73,15 @@ namespace Restaurante.Persistencia{
         //     return _context.Menus.Where( p => p.persona.Contains(busqueda));
         // }
 
-        int IComanda_Repository.Actualizar(Detal_Asignacion detal_asignacion){
+        int IDetal_Asignacion_Repository.Actualizar(Detal_Asignacion detal_asignacion){
             _context.Detal_Asignaciones.Update(detal_asignacion);
             return _context.SaveChanges();
         }
 
-        // int IComanda_Repository.Eliminar(Detal_Asignacion){
-        //     _context.Detal_Asignaciones.Remove(detal_asignacion);
-        //     return _context.SaveChanges();
-        // }
+        int IDetal_Asignacion_Repository.Eliminar(Detal_Asignacion detal_asignacion){
+            _context.Detal_Asignaciones.Remove(detal_asignacion);
+            return _context.SaveChanges();
+        }
        
     }
    

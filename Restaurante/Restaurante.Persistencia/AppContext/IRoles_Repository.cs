@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace Restaurante.Persistencia
 {
-    public interface IRol_Repository
+    public interface IRoles_Repository
     {       
         int AdicionaRol(Rol rol);
         bool Add(Rol rol);

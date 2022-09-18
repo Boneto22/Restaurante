@@ -5841,11 +5841,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\Restaurante\\restaurante\\restaurante.Consola\\Restaurante.Consola.csproj",
+      "projectUniqueName": "D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\Restaurante\\restaurante\\restaurante.consola\\Restaurante.Consola.csproj",
       "projectName": "Restaurante.Consola",
-      "projectPath": "D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\Restaurante\\restaurante\\restaurante.Consola\\Restaurante.Consola.csproj",
+      "projectPath": "D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\Restaurante\\restaurante\\restaurante.consola\\Restaurante.Consola.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\Restaurante\\restaurante\\restaurante.Consola\\obj\\",
+      "outputPath": "D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\Restaurante\\restaurante\\restaurante.consola\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -5924,13 +5924,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema al leer el archivo de caché D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\Restaurante\\restaurante\\restaurante.Consola\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

@@ -15,7 +15,7 @@ namespace Restaurante.Persistencia{
           _context = context;
         }          
      //Guardar
-        int IRoles_Repository.AdicionaComanda(Rol rol){
+        int IRoles_Repository.AdicionaRol(Rol rol){
            _context.Roles.Add(rol);
            return _context.SaveChanges();
        }       
@@ -25,7 +25,7 @@ namespace Restaurante.Persistencia{
             return (_context.SaveChanges() > 0 ? true : false);            
         }
          //buscar pórpor Id
-        Menu IRoles_Repository.Buscar(int id){
+        Rol IRoles_Repository.Buscar(int id){
             return _context.Roles.Find(id);
         }
 
@@ -61,7 +61,7 @@ namespace Restaurante.Persistencia{
             return _context.SaveChanges();
         }
 
-        IEnumerable<MenuComanda> IRoles_Repository.ObtenerTodosRol(){
+        IEnumerable<Rol> IRoles_Repository.ObtenerTodosRol(){
            return _context.Roles;
         }
 

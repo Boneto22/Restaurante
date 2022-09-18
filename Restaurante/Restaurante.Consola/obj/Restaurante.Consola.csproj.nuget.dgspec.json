@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\Restaurante\\restaurante\\restaurante.Consola\\Restaurante.Consola.csproj": {}
+    "D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\Restaurante\\restaurante\\restaurante.consola\\Restaurante.Consola.csproj": {}
   },
   "projects": {
-    "D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\Restaurante\\restaurante\\restaurante.Consola\\Restaurante.Consola.csproj": {
+    "D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\Restaurante\\restaurante\\restaurante.consola\\Restaurante.Consola.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\Restaurante\\restaurante\\restaurante.Consola\\Restaurante.Consola.csproj",
+        "projectUniqueName": "D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\Restaurante\\restaurante\\restaurante.consola\\Restaurante.Consola.csproj",
         "projectName": "Restaurante.Consola",
-        "projectPath": "D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\Restaurante\\restaurante\\restaurante.Consola\\Restaurante.Consola.csproj",
+        "projectPath": "D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\Restaurante\\restaurante\\restaurante.consola\\Restaurante.Consola.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\Restaurante\\restaurante\\restaurante.Consola\\obj\\",
+        "outputPath": "D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\Restaurante\\restaurante\\restaurante.consola\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"

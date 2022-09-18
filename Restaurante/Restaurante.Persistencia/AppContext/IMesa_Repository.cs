@@ -9,9 +9,9 @@ namespace Restaurante.Persistencia
     {       
         int AdicionaMesa(Mesa mesa);
         bool Add(Mesa mesa);
-        Comanda Buscar(int id);
+        Mesa Buscar(int id);
         IEnumerable<Mesa> GetAll();
-        List<Mesa> ObtenerComanda();
+        List<Mesa> ObtenerMesa();
         // IEnumerable<Menu> FindByName(string name);
         // IEnumerable<Asignacion> FindMultipleParameter(string value);
         int Update(Mesa mesa);

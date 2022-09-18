@@ -25,7 +25,7 @@ namespace Restaurante.Persistencia{
             return (_context.SaveChanges() > 0 ? true : false);            
         }
          //buscar pórpor Id
-        Menu ITipoPersona_Repository.Buscar(int id){
+        TipoPersona ITipoPersona_Repository.Buscar(int id){
             return _context.TipoPersonas.Find(id);
         }
 
@@ -61,9 +61,9 @@ namespace Restaurante.Persistencia{
             return _context.SaveChanges();
         }
 
-        IEnumerable<MenuTipoPersona> ITipoPersona_Repository.ObtenerTodasTipoPersona(){
-           return _context.TipoPersonas;
-        }
+        // IEnumerable<TipoPersona> ITipoPersona_Repository.ObtenerTodasTipoPersona(){
+        //    return _context.TipoPersonas;
+        // }
 
         // List<TipoPersona> ITipoPersona_Repository.ObtenerListadoNombre(string descrip){
         //     return _context.Menus.Where( p => p.descripcion.Contains(descrip) ).ToList();

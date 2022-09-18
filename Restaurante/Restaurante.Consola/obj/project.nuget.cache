@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jbNnziq46j/dRMIkTphSeqG34E8nyoK/8KCMgLyQ9/0/wXDystOIDyacuMfY/XX/EOhxABsbpUh5vnWQJcR5ew==",
+  "dgSpecHash": "j2tk3E1HaEyGj8huIdFcynZuetd3XAgUTbf1SLA8kaSsveVIUA7UmFeX0nWLhon80GsKuch+J2ttNcgNofNOlQ==",
   "success": true,
-  "projectFilePath": "D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\Restaurante\\restaurante\\restaurante.Consola\\Restaurante.Consola.csproj",
+  "projectFilePath": "D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\Restaurante\\restaurante\\restaurante.consola\\Restaurante.Consola.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
@@ -103,12 +103,5 @@
     "C:\\Users\\Usuario\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema al leer el archivo de caché D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\Restaurante\\restaurante\\restaurante.Consola\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

@@ -20,16 +20,16 @@ namespace Restaurante.Persistencia{
            return _context.SaveChanges();
        }       
 
-        bool IComanda_Repository.Add(Factura factura){
+        bool IFactura_Repository.Add(Factura factura){
             _context.Facturas.Add(factura);
             return (_context.SaveChanges() > 0 ? true : false);            
         }
-         //buscar pórpor Id
-        Menu IComanda_Repository.Buscar(int id){
+         //buscar pór Id
+        Factura IFactura_Repository.Buscar(int id){
             return _context.Facturas.Find(id);
         }
 
-        IEnumerable<Factura> IComanda_Repository.GetAll(){
+        IEnumerable<Factura> IFactura_Repository.GetAll(){
             return _context.Facturas;
         }
 
@@ -39,7 +39,7 @@ namespace Restaurante.Persistencia{
         // IEnumerable<Factura> IComanda_Repository.Buscador(int busqueda){
         //     return _context.Menus.Where(p => p.id.Contains(busqueda) );
         // }
-        List<Factura> IComanda_Repository.ObtenerComanda(){
+        List<Factura> IFactura_Repository.ObtenerFactura(){
             return _context.Facturas.ToList();
         }
        
@@ -51,17 +51,17 @@ namespace Restaurante.Persistencia{
         //     return _context.Menus.Where(p => p.persona.Contains(value));
         // }
 
-        int IComanda_Repository.Update(Factura factura){
+        int IFactura_Repository.Update(Factura factura){
             _context.Facturas.Update(factura);
             return _context.SaveChanges();
         }
 
-        int IComanda_Repository.Delete(Factura factura){
+        int IFactura_Repository.Delete(Factura factura){
             _context.Facturas.Remove(factura);
             return _context.SaveChanges();
         }
 
-        IEnumerable<MenuComanda> IFactura_Repository.ObtenerTodasComanda(){
+        IEnumerable<Factura> IFactura_Repository.ObtenerTodasFactura(){
            return _context.Facturas;
         }
 
@@ -73,12 +73,12 @@ namespace Restaurante.Persistencia{
         //     return _context.Menus.Where( p => p.persona.Contains(busqueda));
         // }
 
-        int IComanda_Repository.Actualizar(Factura factura){
+        int IFactura_Repository.Actualizar(Factura factura){
             _context.Facturas.Update(factura);
             return _context.SaveChanges();
         }
 
-        int IComanda_Repository.Eliminar(Factura factura){
+        int IFactura_Repository.Eliminar(Factura factura){
             _context.Facturas.Remove(factura);
             return _context.SaveChanges();
         }

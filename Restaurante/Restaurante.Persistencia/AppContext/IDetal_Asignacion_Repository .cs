@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace Restaurante.Persistencia
 {
-    public interface IDeta_Asignacion_Repository
+    public interface IDetal_Asignacion_Repository
     {       
         int AdicionaDetaAsig(Detal_Asignacion detal_asignacion);
         bool Add(Detal_Asignacion detal_asignacion);
