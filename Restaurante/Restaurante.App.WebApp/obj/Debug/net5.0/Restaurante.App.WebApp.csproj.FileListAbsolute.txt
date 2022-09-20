@@ -39,7 +39,6 @@ D:\Documents\HECTOR GARCIA\RUTA2\3er Ciclo\Proyecto\3erciclo\proyectoTemp\restau
 D:\Documents\HECTOR GARCIA\RUTA2\3er Ciclo\Proyecto\3erciclo\proyectoTemp\restaurante\restaurante\restaurante.consola\restaurante.app.webapp\obj\Debug\net5.0\Restaurante.App.WebApp.genruntimeconfig.cache
 D:\Documents\HECTOR GARCIA\RUTA2\3er Ciclo\Proyecto\3erciclo\proyectoTemp\restaurante\restaurante\restaurante.consola\restaurante.app.webapp\obj\Debug\net5.0\Restaurante.App.WebApp.csproj.CopyComplete
 <<<<<<< HEAD
-<<<<<<< HEAD
 D:\Documents\HECTOR GARCIA\RUTA2\3er Ciclo\Proyecto\3erciclo\proyectoTemp\Restaurante\restaurante\Restaurante.App.WebApp\bin\Debug\net5.0\appsettings.Development.json
 D:\Documents\HECTOR GARCIA\RUTA2\3er Ciclo\Proyecto\3erciclo\proyectoTemp\Restaurante\restaurante\Restaurante.App.WebApp\bin\Debug\net5.0\appsettings.json
 D:\Documents\HECTOR GARCIA\RUTA2\3er Ciclo\Proyecto\3erciclo\proyectoTemp\Restaurante\restaurante\Restaurante.App.WebApp\bin\Debug\net5.0\Restaurante.App.WebApp.exe
@@ -80,7 +79,6 @@ D:\Documents\HECTOR GARCIA\RUTA2\3er Ciclo\Proyecto\3erciclo\proyectoTemp\Restau
 D:\Documents\HECTOR GARCIA\RUTA2\3er Ciclo\Proyecto\3erciclo\proyectoTemp\Restaurante\restaurante\Restaurante.App.WebApp\obj\Debug\net5.0\Restaurante.App.WebApp.pdb
 D:\Documents\HECTOR GARCIA\RUTA2\3er Ciclo\Proyecto\3erciclo\proyectoTemp\Restaurante\restaurante\Restaurante.App.WebApp\obj\Debug\net5.0\Restaurante.App.WebApp.genruntimeconfig.cache
 D:\Documents\HECTOR GARCIA\RUTA2\3er Ciclo\Proyecto\3erciclo\proyectoTemp\Restaurante\restaurante\Restaurante.App.WebApp\obj\Debug\net5.0\Restaurante.App.WebApp.csproj.CopyComplete
-=======
 =======
 >>>>>>> afb48ae4ef9650f4f2e0a584877bb2998bb8f49f
 C:\Users\Dylan\Documents\Proyectos\restaurante\restaurante\restaurante.app.webapp\bin\Debug\net5.0\appsettings.Development.json
@@ -124,7 +122,6 @@ C:\Users\Dylan\Documents\Proyectos\restaurante\restaurante\restaurante.app.webap
 C:\Users\Dylan\Documents\Proyectos\restaurante\restaurante\restaurante.app.webapp\obj\Debug\net5.0\ref\Restaurante.App.WebApp.dll
 C:\Users\Dylan\Documents\Proyectos\restaurante\restaurante\restaurante.app.webapp\obj\Debug\net5.0\Restaurante.App.WebApp.csproj.CopyComplete
 C:\Users\Dylan\Documents\Proyectos\restaurante\restaurante\restaurante.app.webapp\obj\Debug\net5.0\Razor\Pages\Registro\Cliente.cshtml.g.cs
-<<<<<<< HEAD
 C:\Users\Dylan\Documents\Proyectos\restaurante\restaurante\restaurante.app.webapp\obj\Debug\net5.0\Razor\Pages\Referencia\Contacto.cshtml.g.cs
 C:\Users\Dylan\Documents\Proyectos\restaurante\restaurante\restaurante.app.webapp\obj\Debug\net5.0\Razor\Pages\Menu\Comidas.cshtml.g.cs
 C:\Users\Dylan\Documents\Proyectos\restaurante\restaurante\restaurante.app.webapp\obj\Debug\net5.0\Razor\Pages\Registro\Empleado.cshtml.g.cs
@@ -173,9 +170,13 @@ D:\leider\universidad de caldas\programacion\c#\Restaurante\Restaurante\Restaura
 D:\leider\universidad de caldas\programacion\c#\Restaurante\Restaurante\Restaurante.App.WebApp\obj\Debug\net5.0\Restaurante.App.WebApp.genruntimeconfig.cache
 D:\leider\universidad de caldas\programacion\c#\Restaurante\Restaurante\Restaurante.App.WebApp\obj\Debug\net5.0\Restaurante.App.WebApp.csproj.CopyComplete
 >>>>>>> 1aad3ada6de7e334392999542f681daa408edbbb
-=======
-C:\Users\Dylan\Documents\Proyectos\restaurante\restaurante\restaurante.app.webapp\obj\Debug\net5.0\Razor\Pages\Menu\Comidas.cshtml.g.cs
 C:\Users\Dylan\Documents\Proyectos\restaurante\restaurante\restaurante.app.webapp\obj\Debug\net5.0\Razor\Pages\Registro\Sesion.cshtml.g.cs
 C:\Users\Dylan\Documents\Proyectos\Restaurante\Restaurante\Restaurante.App.WebApp\obj\Debug\net5.0\Razor\Pages\Menu\Carrito.cshtml.g.cs
 C:\Users\Dylan\Documents\Proyectos\Restaurante\Restaurante\Restaurante.App.WebApp\obj\Debug\net5.0\Razor\Pages\Menu\Mesa.cshtml.g.cs
->>>>>>> afb48ae4ef9650f4f2e0a584877bb2998bb8f49f
+D:\Documents\HECTOR GARCIA\RUTA2\3er Ciclo\Proyecto\3erciclo\proyectoTemp\Restaurante\restaurante\Restaurante.App.WebApp\obj\Debug\net5.0\Razor\Pages\Menu\Carrito.cshtml.g.cs
+D:\Documents\HECTOR GARCIA\RUTA2\3er Ciclo\Proyecto\3erciclo\proyectoTemp\Restaurante\restaurante\Restaurante.App.WebApp\obj\Debug\net5.0\Razor\Pages\Menu\Comidas.cshtml.g.cs
+D:\Documents\HECTOR GARCIA\RUTA2\3er Ciclo\Proyecto\3erciclo\proyectoTemp\Restaurante\restaurante\Restaurante.App.WebApp\obj\Debug\net5.0\Razor\Pages\Menu\Mesa.cshtml.g.cs
+D:\Documents\HECTOR GARCIA\RUTA2\3er Ciclo\Proyecto\3erciclo\proyectoTemp\Restaurante\restaurante\Restaurante.App.WebApp\obj\Debug\net5.0\Razor\Pages\Referencia\Contacto.cshtml.g.cs
+D:\Documents\HECTOR GARCIA\RUTA2\3er Ciclo\Proyecto\3erciclo\proyectoTemp\Restaurante\restaurante\Restaurante.App.WebApp\obj\Debug\net5.0\Razor\Pages\Registro\Cliente.cshtml.g.cs
+D:\Documents\HECTOR GARCIA\RUTA2\3er Ciclo\Proyecto\3erciclo\proyectoTemp\Restaurante\restaurante\Restaurante.App.WebApp\obj\Debug\net5.0\Razor\Pages\Registro\Empleado.cshtml.g.cs
+D:\Documents\HECTOR GARCIA\RUTA2\3er Ciclo\Proyecto\3erciclo\proyectoTemp\Restaurante\restaurante\Restaurante.App.WebApp\obj\Debug\net5.0\Razor\Pages\Registro\Sesion.cshtml.g.cs
