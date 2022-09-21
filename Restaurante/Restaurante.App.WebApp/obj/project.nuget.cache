@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RfKxG74pVTtSmpnwHCsE4RaYOIXXqxZzaexsZ+7juIResLsyx3E5pSDlOLuXu9iWOLYO0ycQLoodIUtlxWCiWA==",
+  "dgSpecHash": "ixrxKlSJWm6mvO7954fy0fdiB4d/+0/++7g9fRLHi/nzMq5vcg6to71G04pFBq/pLDBZqFxq4INEPhM18LahbQ==",
   "success": true,
-  "projectFilePath": "D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\Restaurante\\restaurante\\Restaurante.App.WebApp\\Restaurante.App.WebApp.csproj",
+  "projectFilePath": "D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\Restaurante\\restaurante\\restaurante.App.WebApp\\Restaurante.App.WebApp.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema al leer el archivo de caché D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\Restaurante\\restaurante\\Restaurante.App.WebApp\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }
